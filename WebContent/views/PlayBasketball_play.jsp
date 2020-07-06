@@ -1,4 +1,5 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%
 	request.setCharacterEncoding("UTF-8");
 String cp = request.getContextPath();
@@ -24,7 +25,9 @@ String cp = request.getContextPath();
 </head>
 <body>
 
-	<div>header</div>
+	<!-- 헤더 -->
+<c:import url="Header.jsp"></c:import>
+<c:import url="Submenu.jsp"></c:import>
 
 
 	<div class="container-fluid">
@@ -61,7 +64,7 @@ String cp = request.getContextPath();
 		</div>
 	</div>
 	
-	<div>footer</div>
+<c:import url="Footer.jsp"></c:import>
 	
 
 </body>

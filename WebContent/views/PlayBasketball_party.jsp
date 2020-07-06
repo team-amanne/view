@@ -1,4 +1,5 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%
 	request.setCharacterEncoding("UTF-8");
 String cp = request.getContextPath();
@@ -10,6 +11,7 @@ String cp = request.getContextPath();
 <title>농구하기</title>
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<!-- 공통 헤더 -->
 <style type="text/css">
 
 	.col-party 
@@ -24,10 +26,11 @@ String cp = request.getContextPath();
 </head>
 <body>
 
-	<div>header</div>
+	<!-- 헤더 -->
+<c:import url="Header.jsp"></c:import>
+<c:import url="Submenu.jsp"></c:import>
 
-
-	<div class="container-fluid">
+	<div class="container-fluid main">
 		<div class="section-title">
 			<h5>농구하기 > 사용자선택</h5>
 			<hr />
@@ -61,7 +64,7 @@ String cp = request.getContextPath();
 		</div>
 	</div>
 	
-	<div>footer</div>
+	<c:import url="Footer.jsp"></c:import>
 	
 
 </body>

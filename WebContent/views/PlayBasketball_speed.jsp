@@ -1,4 +1,5 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%
 	request.setCharacterEncoding("UTF-8");
 String cp = request.getContextPath();
@@ -28,7 +29,10 @@ String cp = request.getContextPath();
 </style>
 </head>
 <body>
-	<div>header</div>
+	<!-- 헤더 -->
+<c:import url="Header.jsp"></c:import>
+<c:import url="Submenu.jsp"></c:import>
+
 <div class="container-fluid">
 	<div class="section-title">
 		<h5>농구하기 > 사용자선택 > 빠른농구 </h5>
@@ -84,7 +88,7 @@ String cp = request.getContextPath();
 											모임 지역 선택
 										</div>
 										<div class="panel-body row">
-											<div class="col-md-2 sel-region">
+											<div class="col-md-3 sel-region">
 											<h5 class="region">광역시·도</h5>
 											</div>
 											<div class="col-md-3">
@@ -92,8 +96,8 @@ String cp = request.getContextPath();
 												<option value="">광역시·도 선택</option>
 												</select>
 											</div>
-											<div class="col-md-1"></div>
-											<div class="col-md-2 sel-region">
+										
+											<div class="col-md-3 sel-region">
 											<h5 class="region">시·군·구</h5>
 											</div>
 											<div class="col-md-3">
@@ -128,7 +132,7 @@ String cp = request.getContextPath();
 	</div>
 </div>
 
-	<div>footer</div>
+<c:import url="Footer.jsp"></c:import>
 
 </body>
 </html>
