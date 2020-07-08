@@ -19,12 +19,11 @@ String cp = request.getContextPath();
 	padding-bottom: 4px;
 }
 
-.time-ridio
-{
+.time-ridio {
 	margin-bottom: 7px;
 }
-.end-time
-{
+
+.end-time {
 	margin: 7px auto 7px auto;
 	vertical-align: baseline;
 }
@@ -39,55 +38,45 @@ String cp = request.getContextPath();
 	padding-left: 0px;
 }
 
-.satisfy
-{
+.satisfy {
 	text-align: center;
 }
-.courtInfo
-{
+
+.courtInfo {
 	font-weight: bold;
 }
 
-.star-score
-{
+.star-score {
 	color: orange;
 }
 
-.btn-serach
-{
+.btn-serach {
 	padding: 0px 0px 0px 0px;
 }
 
+.list-header {
+	color: white;
+	background: orange;
+	font-size: 130%;
+}
 
-   .list-header
-   {
-      color: white;
-      background: orange;
-      font-size: 130%;
-   }
-   .paging
-   {
-      text-align: center;
-   }
-   .top-btn
-   {
-      padding-bottom: 10px;
-      color: white;
-   }
-   .top-btn .col-md-2
-   {
-      text-align: right;
-   }
-   
-      .list-item
-   {
-      height: 50px;
-      text-align: center;
-   }
-   
+.paging {
+	text-align: center;
+}
 
+.top-btn {
+	padding-bottom: 10px;
+	color: white;
+}
 
+.top-btn .col-md-2 {
+	text-align: right;
+}
 
+.list-item {
+	height: 50px;
+	text-align: center;
+}
 </style>
 </head>
 <body>
@@ -102,8 +91,8 @@ String cp = request.getContextPath();
 			<hr />
 		</div>
 		<div class="row">
-			<div class="col-md-3"></div>
-			<div class="col-md-7">
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
 				<div class="row">
 					<div class="col-md-12">
 						<h3>모임 조건 설정</h3>
@@ -113,9 +102,9 @@ String cp = request.getContextPath();
 								<div class="panel panel-default">
 									<div class="panel-heading">경기/일반 선택</div>
 									<div class="panel-body">
-										<label class="radio-inline radio"> <input
-											type="radio" name="inlineRadioOptions" id="inlineRadio1"
-											value="option1"> 경기
+										<label class="radio-inline radio"> <input type="radio"
+											name="inlineRadioOptions" id="inlineRadio1" value="option1">
+											경기
 										</label> <label class="radio-inline radio"> <input
 											type="radio" name="inlineRadioOptions" id="inlineRadio2"
 											value="option2"> 일반
@@ -123,16 +112,14 @@ String cp = request.getContextPath();
 									</div>
 								</div>
 								<div class="panel panel-default">
-									<div class="panel-heading">
-										날짜 선택
-									
-									</div>
+									<div class="panel-heading">날짜 선택</div>
 									<div class="panel-body">
 										<div class="input-group">
-											<input type="text" class="form-control"placeholder="2020-07-07"> 
-											<span class="input-group-btn">
+											<input type="text" class="form-control"
+												placeholder="2020-07-07"> <span
+												class="input-group-btn">
 												<button class="btn btn-default calender" type="button">
-												<span class="glyphicon glyphicon-calendar"></span>
+													<span class="glyphicon glyphicon-calendar"></span>
 												</button>
 											</span>
 										</div>
@@ -141,9 +128,7 @@ String cp = request.getContextPath();
 									</div>
 								</div>
 								<div class="panel panel-default">
-									<div class="panel-heading">
-										시간 선택
-									</div>
+									<div class="panel-heading">시간 선택</div>
 									<div class="panel-body">
 										<label class="radio-inline time-ridio"> <input
 											type="radio" name="inlineRadioOptions" id="inlineRadio1"
@@ -151,22 +136,20 @@ String cp = request.getContextPath();
 										</label> <label class="radio-inline time-ridio"> <input
 											type="radio" name="inlineRadioOptions" id="inlineRadio2"
 											value="option2"> 오후
-										</label>
-										<select class="form-control">
+										</label> <select class="form-control">
 											<option value="">00:00</option>
 										</select>
 									</div>
 								</div>
 								<div class="panel panel-default">
-									<div class="panel-heading">
-										모집 종료 시간
-									</div>
+									<div class="panel-heading">모집 종료 시간</div>
 									<div class="panel-body">
 										<div class="input-group">
-											<input type="text" class="form-control"placeholder="2020-07-07"> 
-											<span class="input-group-btn">
+											<input type="text" class="form-control"
+												placeholder="2020-07-07"> <span
+												class="input-group-btn">
 												<button class="btn btn-default calender" type="button">
-												<span class="glyphicon glyphicon-calendar"></span>
+													<span class="glyphicon glyphicon-calendar"></span>
 												</button>
 											</span>
 										</div>
@@ -177,14 +160,13 @@ String cp = request.getContextPath();
 										</label> <label class="radio-inline end-time"> <input
 											type="radio" name="inlineRadioOptions" id="inlineRadio2"
 											value="option2"> 오후
-										</label>
-										<select class="form-control">
+										</label> <select class="form-control">
 											<option value="">00:00</option>
 										</select>
 									</div>
 								</div>
 							</div>
-							<div class="col-md-8">
+							<div class="col-md-9">
 								<div class="panel panel-default">
 									<div class="panel-heading">모임 장소 선택</div>
 									<div class="panel-body">
@@ -218,65 +200,47 @@ String cp = request.getContextPath();
 										<div class="col-md-8 map-container">지도영역</div>
 										<div class="col-md-4">
 											<h4>코트 정보</h4>
-												   <ul class="list-group">
-												   	<li class="list-group-item">
-												   		<div class="col-md-7 courtInfo">
-												   		코트이름
-												   		</div>
-												   		<p>아맞네</p>
-												   	</li>
-												   	<li class="list-group-item">
-												   		<div class="col-md-7 courtInfo">
-												   		적정인원
-												   		</div>
-											   			<p>4~8</p>
-												   	</li>
-												   	<li class="list-group-item">
-												   		<div class="col-md-7 courtInfo">
-												   		코트등급
-												   		</div>
-											   			<p>B</p>
-												   	</li>
-												   	<li class="list-group-item satisfy">
-												   		<div class="col-md-12 courtInfo">
-												   		만족도
-												   		
-												   		</div>
-												   		<span class="star-score">★★★☆☆</span>
-												   	</li>
-												   </ul>
+											<ul class="list-group">
+												<li class="list-group-item">
+													<div class="col-md-7 courtInfo">코트이름</div>
+													<p>아맞네</p>
+												</li>
+												<li class="list-group-item">
+													<div class="col-md-7 courtInfo">적정인원</div>
+													<p>4~8</p>
+												</li>
+												<li class="list-group-item">
+													<div class="col-md-7 courtInfo">코트등급</div>
+													<p>B</p>
+												</li>
+												<li class="list-group-item satisfy">
+													<div class="col-md-12 courtInfo">만족도</div> <span
+													class="star-score">★★★☆☆</span>
+												</li>
+											</ul>
 											<h4>코트 시설</h4>
-												   <ul class="list-group">
-												   	<li class="list-group-item">
-												   		<div class="col-md-7 courtInfo">
-												   		화장실
-												   		</div>
-												   		<span class="glyphicon glyphicon-ok-sign"></span>
-												   	</li>
-												   	<li class="list-group-item">
-												   		<div class="col-md-7 courtInfo">
-												   		샤워실
-												   		</div>
-											   			<span class="glyphicon glyphicon-remove-sign"></span>
-												   	</li>
-												   	<li class="list-group-item">
-												   		<div class="col-md-7 courtInfo">
-												   		주차장
-												   		</div>
-											   			<span class="glyphicon glyphicon-remove-sign"></span>
-												   	</li>
-												   </ul>
-												   
-												   <div class="col-md-12 btn-serach">
-												   	<button class="btn btn-default btn-block btn-lg">
-												   		함께농구 검색
-												   	</button>
-												   	<button class="btn btn-default btn-block btn-lg">
-												   		함께농구 개설
-												   	</button>
-												   </div>
-											
+											<ul class="list-group">
+												<li class="list-group-item">
+													<div class="col-md-7 courtInfo">화장실</div> <span
+													class="glyphicon glyphicon-ok-sign"></span>
+												</li>
+												<li class="list-group-item">
+													<div class="col-md-7 courtInfo">샤워실</div> <span
+													class="glyphicon glyphicon-remove-sign"></span>
+												</li>
+												<li class="list-group-item">
+													<div class="col-md-7 courtInfo">주차장</div> <span
+													class="glyphicon glyphicon-remove-sign"></span>
+												</li>
+											</ul>
+
+											<div class="col-md-12 btn-serach">
+												<button class="btn btn-default btn-block btn-lg">
+													함께농구 검색</button>
+												<button class="btn btn-default btn-block btn-lg">
+													함께농구 개설</button>
 											</div>
+
 										</div>
 									</div>
 								</div>
@@ -285,235 +249,322 @@ String cp = request.getContextPath();
 					</div>
 				</div>
 			</div>
-			<div class="col-md-1"></div>
-			<hr />
-			
-			<!-- 모임 목록 -->
-   <div class="row">
-         <div class="col-md-12">
-            <div class="row">
-               <div class="col-md-2">
-               </div>
-               <div class="col-md-8">
-                  <div class="row">
-                     <div class="col-md-12">
-                        <h4>함께농구 목록</h4>
-                        <hr>
-                     </div>
-                  </div>
-                  <div class="row top-btn">
-                     <div class="col-md-4">
-                     </div>
-                     <div class="col-md-6">
-                     </div>
-                     <div class="col-md-2">
-                     <button class="btn submit-btn" type="submit">삭제하기</button>
-                     </div>
-                  </div>
-                  <ul class="list-group">
-                        <li class="list-group-item list-header list-item">
-                           <div class="col-md-1">
-                               <input type="checkbox" aria-label="...">
-                           </div>
-                           <div class="col-md-2">
-                              <span>보낸사람</span>
-                           </div>
-                           <div class="col-md-6">
-                              <span>제목</span>
-                           </div>
-                           <div class="col-md-3">
-                              <span>일자</span>
-                           </div>
-                        </li>
-                        <li class="list-group-item list-item">
-                           <div class="col-md-1">
-                              <input type="checkbox" aria-label="...">
-                           </div>
-                           <div class="col-md-2">
-                              <span><a href="">문승주</a></span>
-                           </div>
-                           <div class="col-md-6">
-                              <span><a href="">아맞네</a></span>
-                           </div>
-                           <div class="col-md-3">
-                              <span>2020-07-07</span>
-                           </div>
-                        </li>
-                        <li class="list-group-item list-item">
-                           <div class="col-md-1">
-                              <input type="checkbox" aria-label="...">
-                           </div>
-                           <div class="col-md-2">
-                              <span><a href="">길동규</a></span>
-                           </div>
-                           <div class="col-md-6">
-                              <span><a href="">나는 길동규라고 하네만</a></span>
-                           </div>
-                           <div class="col-md-3">
-                              <span>2020-07-06</span>
-                           </div>
-                        </li>
-                        <li class="list-group-item list-item">
-                           <div class="col-md-1">
-                              <input type="checkbox" aria-label="...">
-                           </div>
-                           <div class="col-md-2">
-                              <span><a href="">신성철</a></span>
-                           </div>
-                           <div class="col-md-6">
-                              <span><a href="">떵철입니다</a></span>
-                           </div>
-                           <div class="col-md-3">
-                              <span>2020-07-06</span>
-                           </div>
-                        </li>
-                        <li class="list-group-item list-item" >
-                           <div class="col-md-1">
-                              <input type="checkbox" aria-label="...">
-                           </div>
-                           <div class="col-md-2">
-                              <span><a href="">규쿤</a></span>
-                           </div>
-                           <div class="col-md-6">
-                              <span><a href="">아맞네</a></span>
-                           </div>
-                           <div class="col-md-3">
-                              <span>2020-07-05</span>
-                           </div>
-                        </li>
-                        <li class="list-group-item list-item">
-                           <div class="col-md-1">
-                              <input type="checkbox" aria-label="...">
-                           </div>
-                           <div class="col-md-2">
-                              <span><a href="">규쿤</a></span>
-                           </div>
-                           <div class="col-md-6">
-                              <span><a href="">아맞네</a></span>
-                           </div>
-                           <div class="col-md-3">
-                              <span>2020-07-05</span>
-                           </div>
-                        </li>
-                        <li class="list-group-item list-item">
-                           <div class="col-md-1">
-                              <input type="checkbox" aria-label="...">
-                           </div>
-                           <div class="col-md-2">
-                              <span><a href="">규쿤</a></span>
-                           </div>
-                           <div class="col-md-6">
-                              <span><a href="">아맞네</a></span>
-                           </div>
-                           <div class="col-md-3">
-                              <span>2020-07-05</span>
-                           </div>
-                        </li>
-                        <li class="list-group-item list-item">
-                           <div class="col-md-1">
-                              <input type="checkbox" aria-label="...">
-                           </div>
-                           <div class="col-md-2">
-                              <span><a href="">규쿤</a></span>
-                           </div>
-                           <div class="col-md-6">
-                              <span><a href="">아맞네</a></span>
-                           </div>
-                           <div class="col-md-3">
-                              <span>2020-07-05</span>
-                           </div>
-                        </li>
-                        <li class="list-group-item list-item">
-                           <div class="col-md-1">
-                              <input type="checkbox" aria-label="...">
-                           </div>
-                           <div class="col-md-2">
-                              <span><a href="">규쿤</a></span>
-                           </div>
-                           <div class="col-md-6">
-                              <span><a href="">아맞네</a></span>
-                           </div>
-                           <div class="col-md-3">
-                              <span>2020-07-05</span>
-                           </div>
-                        </li>
-                        <li class="list-group-item list-item">
-                           <div class="col-md-1">
-                              <input type="checkbox" aria-label="...">
-                           </div>
-                           <div class="col-md-2">
-                              <span><a href="">규쿤</a></span>
-                           </div>
-                           <div class="col-md-6">
-                              <span><a href="">아맞네</a></span>
-                           </div>
-                           <div class="col-md-3">
-                              <span>2020-07-05</span>
-                           </div>
-                        </li>
-                        <li class="list-group-item list-item">
-                           <div class="col-md-1">
-                              <input type="checkbox" aria-label="...">
-                           </div>
-                           <div class="col-md-2">
-                              <span><a href="">규쿤</a></span>
-                           </div>
-                           <div class="col-md-6">
-                              <span><a href="">아맞네</a></span>
-                           </div>
-                           <div class="col-md-3">
-                              <span>2020-07-05</span>
-                           </div>
-                        </li>
-                  </ul>
-                  <div class="row">
-                     <div class="col-md-12">
-                     </div>
-                  </div>
-                  <div class="row">
-                     <div class="col-md-3">
-                     </div>
-                     <div class="col-md-6 paging">
-                        <ul class="pagination">
-                        <!-- li태그의 클래스에 disabled를 넣으면 마우스를 위에 올렸을 때 클릭 금지 마크가 나오고 클릭도 되지 않는다.-->
-                        <!-- disabled의 의미는 앞의 페이지가 존재하지 않다는 뜻이다. -->
-                           <li class="disabled">
-                              <a href="#">
-                                 <span>«</span>
-                              </a>
-                           </li>
-                                 <!-- li태그의 클래스에 active를 넣으면 색이 반전되고 클릭도 되지 않는다. -->
-                                 <!-- active의 의미는 현재 페이지의 의미이다. -->
-                           <li class="active"><a href="#">1</a></li>
-                              <li><a href="#">2</a></li>
-                              <li><a href="#">3</a></li>
-                              <li><a href="#">4</a></li>
-                              <li><a href="#">5</a></li>
-                           <li>      
-                              <a href="#">
-                                 <span>»</span>
-                              </a>
-                           </li>
-                        </ul>
-                     </div>
-                     <div class="col-md-3">
-                     </div>
-                  </div>
-                  <div class="row">
-                     <div class="col-md-12">
-                     </div>
-                  </div>
-               </div>
-               <div class="col-md-2">
-               </div>
-            </div>
-         </div>
-      </div>
-
-			
-			
 		</div>
-	
+		<!-- <div class="col-md-1"></div> -->
+		<hr />
+
+		<!-- 모임 목록 -->
+		<div class="row">
+			<div class="col-md-12">
+				<div class="row">
+					<div class="col-md-2"></div>
+					<div class="col-md-8">
+						<div class="row">
+							<div class="col-md-12">
+								<h4>함께농구 목록</h4>
+								<hr>
+							</div>
+						</div>
+						<div class="row top-btn">
+							<div class="col-md-4"></div>
+							<div class="col-md-6"></div>
+							<div class="col-md-2">
+								<button class="btn submit-btn" type="button">전체 리스트</button>
+							</div>
+						</div>
+
+						<ul class="list-group">
+							<li class="list-group-item list-header list-item">
+								<div class="col-md-1">
+									<input type="checkbox" aria-label="...">
+								</div>
+								<div class="col-md-1">
+									<span>번호</span>
+								</div>
+								<div class="col-md-3">
+									<span>제목</span>
+								</div>
+								<div class="col-md-1">
+									<span>주장</span>
+								</div>
+								<div class="col-md-3">
+									<span>장소</span>
+								</div>
+								<div class="col-md-2">
+									<span>모임시간</span>
+								</div>
+								<div class="col-md-1">
+									<span>인원</span>
+								</div>
+							</li>
+							<li class="list-group-item list-item">
+								<div class="col-md-1">
+									<input type="checkbox" aria-label="...">
+								</div>
+								<div class="col-md-1">
+									<span>10</span>
+								</div>
+								<div class="col-md-3">
+									<span>동휘야 그만해 그만</span>
+								</div>
+								<div class="col-md-1">
+									<span>주한별</span>
+								</div>
+								<div class="col-md-3">
+									<span>서울 마포구 연남코트</span>
+								</div>
+								<div class="col-md-2">
+									<span>2020-07-07</span>
+								</div>
+								<div class="col-md-1">
+									<span>3/4</span>
+								</div>
+							</li>
+							<li class="list-group-item list-item">
+								<div class="col-md-1">
+									<input type="checkbox" aria-label="...">
+								</div>
+								<div class="col-md-1">
+									<span>9</span>
+								</div>
+								<div class="col-md-3">
+									<span>동휘야 그만해 그만</span>
+								</div>
+								<div class="col-md-1">
+									<span>주한별</span>
+								</div>
+								<div class="col-md-3">
+									<span>서울 마포구 연남코트</span>
+								</div>
+								<div class="col-md-2">
+									<span>2020-07-07</span>
+								</div>
+								<div class="col-md-1">
+									<span>3/4</span>
+								</div>
+							</li>
+							<li class="list-group-item list-item">
+								<div class="col-md-1">
+									<input type="checkbox" aria-label="...">
+								</div>
+								<div class="col-md-1">
+									<span>10</span>
+								</div>
+								<div class="col-md-3">
+									<span>동휘야 그만해 그만</span>
+								</div>
+								<div class="col-md-1">
+									<span>주한별</span>
+								</div>
+								<div class="col-md-3">
+									<span>서울 마포구 연남코트</span>
+								</div>
+								<div class="col-md-2">
+									<span>2020-07-07</span>
+								</div>
+								<div class="col-md-1">
+									<span>3/4</span>
+								</div>
+							</li>
+							<li class="list-group-item list-item">
+								<div class="col-md-1">
+									<input type="checkbox" aria-label="...">
+								</div>
+								<div class="col-md-1">
+									<span>10</span>
+								</div>
+								<div class="col-md-3">
+									<span>동휘야 그만해 그만</span>
+								</div>
+								<div class="col-md-1">
+									<span>주한별</span>
+								</div>
+								<div class="col-md-3">
+									<span>서울 마포구 연남코트</span>
+								</div>
+								<div class="col-md-2">
+									<span>2020-07-07</span>
+								</div>
+								<div class="col-md-1">
+									<span>3/4</span>
+								</div>
+							</li>
+							<li class="list-group-item list-item">
+								<div class="col-md-1">
+									<input type="checkbox" aria-label="...">
+								</div>
+								<div class="col-md-1">
+									<span>10</span>
+								</div>
+								<div class="col-md-3">
+									<span>동휘야 그만해 그만</span>
+								</div>
+								<div class="col-md-1">
+									<span>주한별</span>
+								</div>
+								<div class="col-md-3">
+									<span>서울 마포구 연남코트</span>
+								</div>
+								<div class="col-md-2">
+									<span>2020-07-07</span>
+								</div>
+								<div class="col-md-1">
+									<span>3/4</span>
+								</div>
+							</li>
+							<li class="list-group-item list-item">
+								<div class="col-md-1">
+									<input type="checkbox" aria-label="...">
+								</div>
+								<div class="col-md-1">
+									<span>10</span>
+								</div>
+								<div class="col-md-3">
+									<span>동휘야 그만해 그만</span>
+								</div>
+								<div class="col-md-1">
+									<span>주한별</span>
+								</div>
+								<div class="col-md-3">
+									<span>서울 마포구 연남코트</span>
+								</div>
+								<div class="col-md-2">
+									<span>2020-07-07</span>
+								</div>
+								<div class="col-md-1">
+									<span>3/4</span>
+								</div>
+							</li>
+							<li class="list-group-item list-item">
+								<div class="col-md-1">
+									<input type="checkbox" aria-label="...">
+								</div>
+								<div class="col-md-1">
+									<span>10</span>
+								</div>
+								<div class="col-md-3">
+									<span>동휘야 그만해 그만</span>
+								</div>
+								<div class="col-md-1">
+									<span>주한별</span>
+								</div>
+								<div class="col-md-3">
+									<span>서울 마포구 연남코트</span>
+								</div>
+								<div class="col-md-2">
+									<span>2020-07-07</span>
+								</div>
+								<div class="col-md-1">
+									<span>3/4</span>
+								</div>
+							</li>
+							<li class="list-group-item list-item">
+								<div class="col-md-1">
+									<input type="checkbox" aria-label="...">
+								</div>
+								<div class="col-md-1">
+									<span>10</span>
+								</div>
+								<div class="col-md-3">
+									<span>동휘야 그만해 그만</span>
+								</div>
+								<div class="col-md-1">
+									<span>주한별</span>
+								</div>
+								<div class="col-md-3">
+									<span>서울 마포구 연남코트</span>
+								</div>
+								<div class="col-md-2">
+									<span>2020-07-07</span>
+								</div>
+								<div class="col-md-1">
+									<span>3/4</span>
+								</div>
+							</li>
+							<li class="list-group-item list-item">
+								<div class="col-md-1">
+									<input type="checkbox" aria-label="...">
+								</div>
+								<div class="col-md-1">
+									<span>10</span>
+								</div>
+								<div class="col-md-3">
+									<span>동휘야 그만해 그만</span>
+								</div>
+								<div class="col-md-1">
+									<span>주한별</span>
+								</div>
+								<div class="col-md-3">
+									<span>서울 마포구 연남코트</span>
+								</div>
+								<div class="col-md-2">
+									<span>2020-07-07</span>
+								</div>
+								<div class="col-md-1">
+									<span>3/4</span>
+								</div>
+							</li>
+							<li class="list-group-item list-item">
+								<div class="col-md-1">
+									<input type="checkbox" aria-label="...">
+								</div>
+								<div class="col-md-1">
+									<span>10</span>
+								</div>
+								<div class="col-md-3">
+									<span>동휘야 그만해 그만</span>
+								</div>
+								<div class="col-md-1">
+									<span>주한별</span>
+								</div>
+								<div class="col-md-3">
+									<span>서울 마포구 연남코트</span>
+								</div>
+								<div class="col-md-2">
+									<span>2020-07-07</span>
+								</div>
+								<div class="col-md-1">
+									<span>3/4</span>
+								</div>
+							</li>
+						</ul>
+						<div class="row">
+							<div class="col-md-12"></div>
+						</div>
+						<div class="row">
+							<div class="col-md-3"></div>
+							<div class="col-md-6 paging">
+								<ul class="pagination">
+									<!-- li태그의 클래스에 disabled를 넣으면 마우스를 위에 올렸을 때 클릭 금지 마크가 나오고 클릭도 되지 않는다.-->
+									<!-- disabled의 의미는 앞의 페이지가 존재하지 않다는 뜻이다. -->
+									<li class="disabled"><a href="#"> <span>«</span>
+									</a></li>
+									<!-- li태그의 클래스에 active를 넣으면 색이 반전되고 클릭도 되지 않는다. -->
+									<!-- active의 의미는 현재 페이지의 의미이다. -->
+									<li class="active"><a href="#">1</a></li>
+									<li><a href="#">2</a></li>
+									<li><a href="#">3</a></li>
+									<li><a href="#">4</a></li>
+									<li><a href="#">5</a></li>
+									<li><a href="#"> <span>»</span>
+									</a></li>
+								</ul>
+							</div>
+							<div class="col-md-3"></div>
+						</div>
+						<div class="row">
+							<div class="col-md-12"></div>
+						</div>
+					</div>
+					<div class="col-md-2"></div>
+				</div>
+			</div>
+		</div>
+
+
+
+	</div>
+
 
 	<c:import url="Footer.jsp"></c:import>
 
