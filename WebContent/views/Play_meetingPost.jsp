@@ -17,10 +17,25 @@ String cp = request.getContextPath();
       rel="stylesheet">
       
  <style type="text/css">
-   .subject-area
-   {
-   	text-align: center;
-   }
+	.info-title
+	{
+		font-size: 12pt;
+		font-weight: bold;
+		text-align: center;
+		
+	}
+	
+	.user-info
+	{
+		text-align: center;
+	}
+	
+	.yesorno
+	{
+		text-align: center;
+	}
+	
+	
    
  </style>
 
@@ -52,31 +67,131 @@ String cp = request.getContextPath();
 						<div class="panel panel-default">
 						<div class="panel-body">
 							<div class="panel panel-default">
-								<div class="panel-body subject-area">
-								<div class="col-md-1">
-								제목
+								<div class="panel-body center-move">
+								<div class="col-md-6">
+									<div class="col-md-4 info-title">
+									제목
+									</div>
+									<div class="col-md-8">
+									제목입니다아
+									</div>
 								</div>
-								<div class="col-md-5">
-								제목내용입니다아아아아아
+								<div class="col-md-4">
+									<div class="col-md-4 info-title">
+									주장
+									</div>
+									<div class="col-md-8">
+									아맞네
+									</div>
 								</div>
-								<div class="col-md-1">
-								주장
-								</div>
-								<div class="col-md-2">
-								주장닉네임
-								</div>
-								<div class="col-md-1">
-								인원
-								</div>
-								<div class="col-md-2">
-								n/n
+								<div class="col-md-2 info-title">
+									<button class="btn btn-default btn-xs">
+									모임 신고 하기
+									</button>
 								</div>
 								
 								</div>
 							</div>
 							
 							<div class="panel panel-default">
-								<div class="panel-body"></div>
+								<div class="panel-body center-move">
+								<div class="col-md-6">
+									<div class="col-md-4 info-title">
+									모임장소
+									</div>
+									<div class="col-md-8">
+									서울 마포구 쌍용체육관
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="col-md-5 info-title">
+									시합/일반
+									</div>
+									<div class="col-md-7">
+									시합
+									</div>
+								</div>		
+								<div class="col-md-2 info-title" >
+									
+									<span>n/n</span>명
+								</div>							
+								
+							</div>
+							
+							</div>
+						<div class="panel panel-default">
+								<div class="panel-body center-move">
+								<div class="col-md-3">
+									<div class="col-md-8 info-title">
+									참여자 목록
+									</div>
+								</div>		
+								<div class="col-md-9">
+									<div class="panel panel-default">
+										<div class="panel-body">
+										<div class="panel panel-default">
+										<div class="panel-body user-info">
+										<div class="col-md-4">
+										닉네임
+										</div>
+										<div class="col-md-4">
+										티어
+										</div>
+										<div class="col-md-4">
+										페어플레이 점수
+										</div>
+										</div>
+										</div>
+										<div class="panel panel-default">
+										<div class="panel-body user-info">
+										
+										<div class="col-md-4">아맞네</div>
+										<div class="col-md-4">4 teir</div>
+										<div class="col-md-4">★★★☆</div>
+										
+										<div class="col-md-4">규쿤</div>
+										<div class="col-md-4">3 teir</div>
+										<div class="col-md-4">★★★☆</div>
+										
+										<div class="col-md-4">갓진녕</div>
+										<div class="col-md-4">5 teir</div>
+										<div class="col-md-4">★★★☆</div>
+										
+										</div>
+										</div>
+										
+										</div>
+									</div>
+								</div>								
+							</div>
+							
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-body center-move">
+								<div class="col-md-3">
+									<div class="col-md-8 info-title">
+									공지 사항
+									</div>
+								</div>		
+								<div class="col-md-9">
+									<div class="panel panel-default">
+										<div class="panel-body">
+										
+											오늘 모임 후 뒷풀이 있습니다. 
+											참여는 자유롭게 해주세요
+										</div>
+									</div>
+								</div>								
+							</div>
+							
+							</div>
+							<div class="yesorno">
+							<button class="btn btn-default btn-lg btn-submit">
+								참여
+							</button>
+							<button class="btn btn-default btn-lg">
+								불참
+							</button>
 							</div>
 						
 						</div>
