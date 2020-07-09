@@ -202,34 +202,34 @@ String cp = request.getContextPath();
 											<h4>코트 정보</h4>
 											<ul class="list-group">
 												<li class="list-group-item">
-													<div class="col-md-7 courtInfo">코트이름</div>
+													<div class="col-md-7 courtInfo"><span class="board-header">코트이름</span></div>
 													<p>아맞네</p>
 												</li>
 												<li class="list-group-item">
-													<div class="col-md-7 courtInfo">적정인원</div>
+													<div class="col-md-7 courtInfo"><span class="board-header">적정인원</span></div>
 													<p>4~8</p>
 												</li>
 												<li class="list-group-item">
-													<div class="col-md-7 courtInfo">코트등급</div>
+													<div class="col-md-7 courtInfo"><span class="board-header">코트등급</span></div>
 													<p>B</p>
 												</li>
 												<li class="list-group-item satisfy">
-													<div class="col-md-12 courtInfo">만족도</div> <span
+													<div class="col-md-12 courtInfo"><span class="board-header">만족도</span></div> <span
 													class="star-score">★★★☆☆</span>
 												</li>
 											</ul>
 											<h4>코트 시설</h4>
 											<ul class="list-group">
 												<li class="list-group-item">
-													<div class="col-md-7 courtInfo">화장실</div> <span
+													<div class="col-md-7 courtInfo"><span class="board-header">화장실</span></div> <span
 													class="glyphicon glyphicon-ok-sign"></span>
 												</li>
 												<li class="list-group-item">
-													<div class="col-md-7 courtInfo">샤워실</div> <span
+													<div class="col-md-7 courtInfo"><span class="board-header">샤워실</span></div> <span
 													class="glyphicon glyphicon-remove-sign"></span>
 												</li>
 												<li class="list-group-item">
-													<div class="col-md-7 courtInfo">주차장</div> <span
+													<div class="col-md-7 courtInfo"><span class="board-header">주차장</span></div> <span
 													class="glyphicon glyphicon-remove-sign"></span>
 												</li>
 											</ul>
@@ -279,22 +279,22 @@ String cp = request.getContextPath();
 									<input type="checkbox" aria-label="...">
 								</div>
 								<div class="col-md-1">
-									<span>번호</span>
+									<span class="board-header">번호</span>
 								</div>
 								<div class="col-md-3">
-									<span>제목</span>
+									<span class="board-header">제목</span>
 								</div>
 								<div class="col-md-1">
-									<span>주장</span>
+									<span class="board-header">주장</span>
 								</div>
 								<div class="col-md-3">
-									<span>장소</span>
+									<span class="board-header">장소</span>
 								</div>
 								<div class="col-md-2">
-									<span>모임시간</span>
+									<span class="board-header">모임시간</span>
 								</div>
 								<div class="col-md-1">
-									<span>인원</span>
+									<span class="board-header">인원</span>
 								</div>
 							</li>
 							<li class="list-group-item list-item">

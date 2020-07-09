@@ -68,14 +68,14 @@ String cp = request.getContextPath();
 								<div class="col-md-6">
 									<div class="panel panel-default">
 										<div class="panel-heading">
-											경기/일반 선택
+											농구공 지참 여부
 										</div>
 										<div class="panel-body">
 											<label for="" class="radio-inline">
-												<input type="radio" /> 경기
+												<input type="radio" /> 지참
 											</label>
 											<label for="" class="radio-inline">
-												<input type="radio" /> 일반
+												<input type="radio" /> 미지참
 											</label>
 										</div>
 									</div>									

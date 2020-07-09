@@ -12,46 +12,75 @@ String cp = request.getContextPath();
 <link rel="stylesheet" type="text/css" href="css/main.css">
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<style type="text/css">
+.board-header
+{
+	font-size: 12pt;
+	font-weight: bold;
+	margin: 10px 0px 10px 0px;
+}
+
+</style>
 </head>
 
 
-	<div class="container-fluid main">
-		<div class="col-md-12">
-			<div class="col-md-4">
-				<div class="col-md-12">
-					<h3>모임 신고</h3>
-				</div>
 
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="col-md-12">
-				<div class="col-md-4">신고사유</div>
-				<div class="col-md-8">
-					<select name="" id="" class="form-control">
-						<option value="">욕설/도배</option>
-					</select>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="col-md-4">게시자</div>
-				<div class="col-md-8">아맞네</div>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="col-md-4">신고내용</div>
-			<div class="col-md-8">
-				<textarea name="" id="" cols="30" rows="10"></textarea>
-			</div>
-		</div>
-	</div>
 	<div class="col-md-4">
-		<div class="col-md-4"></div>
-		<div class="col-md-4">
-			<button class="btn btn-default btn-lg">신고 등록</button>
-		</div>
-		<div class="col-md-4"></div>
-	</div>
 
+		<div class="col-md-12">
+			<h3>모임 신고</h3>
+		</div>
+		<div class="col-md-12">
+		<div class="panel panel-default">
+		<div class="panel-body">
+			<div class="col-md-12">
+			<div class="col-md-4 board-header">
+				<span class="board-header">
+					신고사유
+				</span>
+			</div>
+			<div class="col-md-8">
+				<select name="" id="" class="form-control">
+					<option value="">욕설 및 도배</option>
+				</select>
+			</div>
+			</div>
+			<hr />
+			<div class="col-md-12">
+			<div class="col-md-4 board-header">
+				<span class="board-header">
+					게시자
+				</span>
+			</div>
+			<div class="col-md-8">
+				<input type="text" class="form-control" value="아맞네" readonly="readonly">
+			</div>
+			</div>
+			
+			<div class="col-md-12">
+			<div class="col-md-12 board-header">
+				<span class="board-header">
+					신고 내용
+				</span>
+			</div>
+			<div class="col-md-12">
+				<div class="panel panel-default">
+				<div class="panel-body">
+				<textarea name="" id="" cols="50" rows="10" class="form-control">신고 내용 무엇인지 입력
+				</textarea>
+				</div>
+				
+				</div>
+			</div>
+			</div>
+			<div class="col-md-12" align="center">
+				<button class="btn btn-default brn-lg">
+				신고 등록
+				</button>
+			</div>
+		</div>
+	</div>
+	</div>
+	</div>
 
 </html>

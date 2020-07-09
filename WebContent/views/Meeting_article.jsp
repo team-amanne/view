@@ -39,6 +39,18 @@ String cp = request.getContextPath();
    
  </style>
 
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script type="text/javascript">
+
+	$(function()
+	{
+		$(".btn-submit").click(function()
+		{
+			confirm("모임 시작 3시간 이내에 참여를 취소할 시 페어플레이점수에 패널티가 부여됩니다.");
+		});
+	});
+</script>
+
 </head>
 <body>
 
@@ -48,7 +60,7 @@ String cp = request.getContextPath();
 
 	<div class="container-fluid main">
 	<div class="section-title container">
-		<h5>농구하기 > 함께농구</h5>
+		<h5>농구하기 > 모임관리 > 참여 예정 모임</h5>
 		<hr />
 	</div>
 		<div class="row">
@@ -56,7 +68,7 @@ String cp = request.getContextPath();
 			<div class="col-md-6">
 				<div class="row">
 					<div class="col-md-12">
-					<div class="col-md-10"><h3>모임</h3></div>
+					<div class="col-md-10"><h3>모임 상세</h3></div>
 					<div class="col-md-2">
 
 					</div>
@@ -187,10 +199,10 @@ String cp = request.getContextPath();
 							</div>
 							<div class="yesorno">
 							<button class="btn btn-default btn-lg btn-submit">
-								참여
+								참여 취소
 							</button>
 							<button class="btn btn-default btn-lg">
-								불참
+								목록으로
 							</button>
 							</div>
 						
