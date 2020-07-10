@@ -21,7 +21,18 @@ String cp = request.getContextPath();
 	{
 		font-size: 12pt;
 		font-weight: bold;
-		text-align: center;
+		/* text-align: center; */
+		padding-left: 0px;
+		padding-right: 0px;		
+	}
+	
+	.eval-user
+	{
+		height: 30px;
+		color: orange;
+		font-size: 8pt;
+		width: 100px;
+		margin-left: 30px;
 		
 	}
 	
@@ -30,9 +41,10 @@ String cp = request.getContextPath();
 		text-align: center;
 	}
 	
-	.yesorno
+	.btn_action
 	{
 		text-align: center;
+
 	}
 	
 	
@@ -48,7 +60,7 @@ String cp = request.getContextPath();
 
 	<div class="container-fluid main">
 	<div class="section-title container">
-		<h5>농구하기 > 함께농구</h5>
+		<h5>농구하기 > 모임관리 > 플레이로그</h5>
 		<hr />
 	</div>
 		<div class="row">
@@ -57,7 +69,7 @@ String cp = request.getContextPath();
 				<div class="row">
 					<div class="col-md-12">
 					<div class="col-md-10">
-						<h3>모임</h3>
+						<h3>플레이로그</h3>
 					</div>
 					<div class="col-md-2">
 
@@ -67,136 +79,262 @@ String cp = request.getContextPath();
 				<div class="row">
 					<div class="col-md-12">
 						<div class="panel panel-default">
-						<div class="panel-body">
-							<div class="panel panel-default">
-								<div class="panel-body center-move">
-								<div class="col-md-6">
-									<div class="col-md-4 info-title">
-									<span class="board-header">제목</span>
+							<div class="panel-body">
+								<div class="panel panel-default">
+									<div class="panel-body center-move">
+										<div class="col-md-6">
+											<div class="col-md-4 info-title">
+												<span class="board-header">제목</span>
+											</div>
+											<div class="col-md-6">제목입니다아</div>
+										</div>
+										<div class="col-md-3">
+											<div class="col-md-4 info-title">
+												<span class="board-header">주장</span>
+											</div>
+											<div class="col-md-8">아맞네</div>
+										</div>
+										<div class="col-md-3">
+											<div class="col-md-6 info-title">
+												<span class="board-header">인원</span>
+											</div>
+											<div class="col-md-6">4명</div>
+										</div>
+
 									</div>
-									<div class="col-md-8">
-									제목입니다아
-									</div>
-								</div>
-								<div class="col-md-4">
-									<div class="col-md-4 info-title">
-									<span class="board-header">주장</span>
-									</div>
-									<div class="col-md-8">
-									아맞네
-									</div>
-								</div>
-								<div class="col-md-2 info-title">
-									<button class="btn btn-default btn-xs">
-									모임 신고 하기
-									</button>
 								</div>
 								
-								</div>
-							</div>
-							
-							<div class="panel panel-default">
-								<div class="panel-body center-move">
-								<div class="col-md-6">
-									<div class="col-md-4 info-title">
-									<span class="board-header">모임장소</span>
-									</div>
-									<div class="col-md-8">
-									서울 마포구 쌍용체육관
-									</div>
-								</div>
-								<div class="col-md-4">
-									<div class="col-md-7 info-title">
-									<span class="board-header">시합/일반</span>
-									</div>
-									<div class="col-md-5">
-									시합
-									</div>
-								</div>		
-								<div class="col-md-2 info-title" >
-									
-									<span>n/n</span>명
-								</div>							
+								<h4>모임 정보</h4>
 								
-							</div>
+								<div class="panel panel-default">
+									<div class="panel-body center-move">
+										<div class="col-md-6">
+											<div class="col-md-4 info-title">
+												<span class="board-header">시합</span>
+											</div>
+											<div class="col-md-8">일반</div>
+										</div>
+										<div class="col-md-6">
+											<div class="col-md-4 info-title">
+												<span class="board-header">장소</span>
+											</div>
+											<div class="col-md-8">서울 마포구 아맞네 코트</div>
+										</div>
+										<div class="col-md-6">
+											<div class="col-md-4 info-title">
+												<span class="board-header">시작일시</span>
+											</div>
+											<div class="col-md-8">2020-07-10 12:00</div>
+										</div>
+										
+										<div class="col-md-6">
+											<div class="col-md-4 info-title">
+												<span class="board-header">종료일시</span>
+											</div>
+											<div class="col-md-8">2020-07-10 14:00</div>
+										</div>
+
+									</div>
+								</div>
+								
 							
-							</div>
-						<div class="panel panel-default">
-								<div class="panel-body center-move">
-								<div class="col-md-4">
-									<div class="col-md-8 info-title">
-									참여자 목록
-									</div>
-								</div>		
-								<div class="col-md-8">
-									<div class="panel panel-default">
-										<div class="panel-body">
-										<div class="panel panel-default">
-										<div class="panel-body user-info">
-										<div class="col-md-4">
-										<span class="board-header">닉네임</span>
+								<h4>참여자 정보</h4>
+								
+								<div class="panel panel-default">
+									<div class="panel-body center-move">
+										<div class="col-md-3">
+											<div class="col-md-8 info-title">참여자 목록</div>
 										</div>
-										<div class="col-md-4">
-										<span class="board-header">티어</span>
-										</div>
-										<div class="col-md-4">
-										<span class="board-header">페어플레이 점수</span>
-										</div>
-										</div>
-										</div>
-										<div class="panel panel-default">
-										<div class="panel-body user-info">
-										
-										<div class="col-md-4">아맞네</div>
-										<div class="col-md-4">4 teir</div>
-										<div class="col-md-4">★★★★☆</div>
-										
-										<div class="col-md-4">규쿤</div>
-										<div class="col-md-4">3 teir</div>
-										<div class="col-md-4">★★★★☆</div>
-										
-										<div class="col-md-4">갓진녕</div>
-										<div class="col-md-4">5 teir</div>
-										<div class="col-md-4">★★★★☆</div>
-										
-										</div>
-										</div>
-										
-										</div>
-									</div>
-								</div>								
-							</div>
-							
-							</div>
-							<div class="panel panel-default">
-								<div class="panel-body center-move">
-								<div class="col-md-4">
-									<div class="col-md-8 info-title">
-									<span class="board-header">공지 사항</span>
-									</div>
-								</div>		
-								<div class="col-md-8">
-									<div class="panel panel-default">
-										<div class="panel-body">
-										
-											오늘 모임 후 뒷풀이 있습니다. 
-											참여는 자유롭게 해주세요
+										<div class="col-md-9">
+											<div class="panel panel-default">
+												<div class="panel-body">
+													<div class="panel panel-default">
+														<div class="panel-body user-info">
+															<div class="col-md-4">
+																<span class="board-header">닉네임</span>
+															</div>
+															<div class="col-md-4">
+																<span class="board-header">티어</span>
+															</div>
+															<div class="col-md-4">
+																<span class="board-header">페어플레이 점수</span>
+															</div>
+															
+														</div>
+													</div>
+													<div class="panel panel-default">
+														<div class="panel-body user-info">
+
+															<div class="col-md-4">아맞네</div>
+															<div class="col-md-4">4 teir</div>
+															<div class="col-md-4">★★★★☆</div>
+
+															<div class="col-md-4">규쿤</div>
+															<div class="col-md-4">3 teir</div>
+															<div class="col-md-4">★★★★☆</div>
+
+															<div class="col-md-4">갓진녕</div>
+															<div class="col-md-4">5 teir</div>
+															<div class="col-md-4">★★★★☆</div>
+
+														</div>
+													</div>
+
+												</div>
+											</div>
 										</div>
 									</div>
-								</div>								
+
+								</div>
+								
+								<h4>플레이로그 입력</h4>
+								
+								<div class="panel panel-default">
+									<div class="panel-body center-move">
+										<div class="col-md-3">
+											<div class="col-md-8 info-title">참여자 목록</div>
+										</div>
+										<div class="col-md-9">
+											<div class="panel panel-default">
+												<div class="panel-body">
+													<div class="panel panel-default">
+														<div class="panel-body user-info">
+															<div class="col-md-4">
+																<span class="board-header">닉네임</span>
+															</div>
+															<div class="col-md-4">
+																<span class="board-header">실력 평가</span>
+															</div>
+															<div class="col-md-4">
+																<span class="board-header">페어플레이 평가</span>
+															</div>
+															
+														</div>
+													</div>
+													<div class="panel panel-default">
+														<div class="panel-body user-info">
+
+															<div class="col-md-4">아맞네</div>
+															<div class="col-md-4">
+																<select name="" id="" class="form-control eval-user">
+																	<option value="">
+																		UP		
+																	</option>
+																	<option value="">
+																		SAME	
+																	</option>
+																	<option value="">
+																		DOWN	
+																	</option>
+																</select>
+															</div>
+															<div class="col-md-4">
+																<select name="" id="" class="form-control eval-user">
+																	<option value="">
+																		★★★★★
+																	</option>
+																	<option value="">
+																		★★★★	
+																	</option>
+																	<option value="">
+																		★★★	
+																	</option>
+																	<option value="">
+																		★★	
+																	</option>
+																	<option value="">
+																		★	
+																	</option>
+																</select>
+															</div>
+
+															<div class="col-md-4">규쿤</div>
+															<div class="col-md-4">
+																<select name="" id="" class="form-control eval-user">
+																	<option value="">
+																		UP		
+																	</option>
+																	<option value="">
+																		SAME	
+																	</option>
+																	<option value="">
+																		DOWN	
+																	</option>
+																</select>
+															</div>
+															<div class="col-md-4">
+																<select name="" id="" class="form-control eval-user">
+																	<option value="">
+																		★★★★★
+																	</option>
+																	<option value="">
+																		★★★★	
+																	</option>
+																	<option value="">
+																		★★★	
+																	</option>
+																	<option value="">
+																		★★	
+																	</option>
+																	<option value="">
+																		★	
+																	</option>
+																</select>
+															</div>
+
+															<div class="col-md-4">갓진녕</div>
+															<div class="col-md-4">
+																<select name="" id="" class="form-control eval-user" disabled="disabled">
+																	<option value="">
+																		UP		
+																	</option>
+																	<option value="">
+																		SAME	
+																	</option>
+																	<option value="">
+																		DOWN	
+																	</option>
+																	<option value="" selected="selected">
+																		다른 티어
+																	</option>
+																</select>
+															</div>
+															<div class="col-md-4">
+																<select name="" id="" class="form-control eval-user">
+																	<option value="">
+																		★★★★★
+																	</option>
+																	<option value="">
+																		★★★★	
+																	</option>
+																	<option value="">
+																		★★★	
+																	</option>
+																	<option value="">
+																		★★	
+																	</option>
+																	<option value="">
+																		★	
+																	</option>
+																</select>
+															</div>
+
+														</div>
+													</div>
+
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+								
+								<div class="btn_action">
+									<button class="btn btn-default btn-lg btn-submit">입력완료</button>
+									<button class="btn btn-default btn-lg">목록으로</button>
+								</div>
+
 							</div>
-							
-							</div>
-							<div class="yesorno">
-							<button class="btn btn-default btn-lg btn-submit">
-								참여
-							</button>
-							<button class="btn btn-default btn-lg">
-								불참
-							</button>
-							</div>
-						
-						</div>
 						</div>
 					</div>
 				</div>
