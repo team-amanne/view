@@ -30,9 +30,10 @@ String cp = request.getContextPath();
 	{
 		height: 30px;
 		color: orange;
-		font-size: 8pt;
+		font-size: 10pt;
 		width: 100px;
 		margin-left: 30px;
+		
 		
 	}
 	
@@ -55,8 +56,8 @@ String cp = request.getContextPath();
 <body>
 
 	<!-- 헤더 -->
-	<c:import url="Header.jsp"></c:import>
-	<c:import url="Submenu.jsp"></c:import>
+	<c:import url="../Header.jsp"></c:import>
+	<c:import url="../Submenu.jsp"></c:import>
 
 	<div class="container-fluid main">
 	<div class="section-title container">
@@ -187,7 +188,7 @@ String cp = request.getContextPath();
 
 								</div>
 								
-								<h4>플레이로그 입력</h4>
+								<h4>내가 입력한 플레이로그</h4>
 								
 								<div class="panel panel-default">
 									<div class="panel-body center-move">
@@ -216,107 +217,26 @@ String cp = request.getContextPath();
 
 															<div class="col-md-4">아맞네</div>
 															<div class="col-md-4">
-																<select name="" id="" class="form-control eval-user">
-																	<option value="">
-																		UP		
-																	</option>
-																	<option value="">
-																		SAME	
-																	</option>
-																	<option value="">
-																		DOWN	
-																	</option>
-																</select>
+																<span class="eval-user">UP</span>
 															</div>
 															<div class="col-md-4">
-																<select name="" id="" class="form-control eval-user">
-																	<option value="">
-																		★★★★★
-																	</option>
-																	<option value="">
-																		★★★★	
-																	</option>
-																	<option value="">
-																		★★★	
-																	</option>
-																	<option value="">
-																		★★	
-																	</option>
-																	<option value="">
-																		★	
-																	</option>
-																</select>
+																<span class="eval-user">★★★★☆</span>
 															</div>
 
 															<div class="col-md-4">규쿤</div>
 															<div class="col-md-4">
-																<select name="" id="" class="form-control eval-user">
-																	<option value="">
-																		UP		
-																	</option>
-																	<option value="">
-																		SAME	
-																	</option>
-																	<option value="">
-																		DOWN	
-																	</option>
-																</select>
+																<span class="eval-user">DOWN</span>
 															</div>
 															<div class="col-md-4">
-																<select name="" id="" class="form-control eval-user">
-																	<option value="">
-																		★★★★★
-																	</option>
-																	<option value="">
-																		★★★★	
-																	</option>
-																	<option value="">
-																		★★★	
-																	</option>
-																	<option value="">
-																		★★	
-																	</option>
-																	<option value="">
-																		★	
-																	</option>
-																</select>
+																<span class="eval-user">★★★☆☆</span>
 															</div>
 
 															<div class="col-md-4">갓진녕</div>
 															<div class="col-md-4">
-																<select name="" id="" class="form-control eval-user" disabled="disabled">
-																	<option value="">
-																		UP		
-																	</option>
-																	<option value="">
-																		SAME	
-																	</option>
-																	<option value="">
-																		DOWN	
-																	</option>
-																	<option value="" selected="selected">
-																		다른 티어
-																	</option>
-																</select>
+																<span class="eval-user">다른 티어</span>
 															</div>
 															<div class="col-md-4">
-																<select name="" id="" class="form-control eval-user">
-																	<option value="">
-																		★★★★★
-																	</option>
-																	<option value="">
-																		★★★★	
-																	</option>
-																	<option value="">
-																		★★★	
-																	</option>
-																	<option value="">
-																		★★	
-																	</option>
-																	<option value="">
-																		★	
-																	</option>
-																</select>
+																<span class="eval-user">★★★☆☆</span>
 															</div>
 
 														</div>
@@ -330,7 +250,7 @@ String cp = request.getContextPath();
 								</div>
 								
 								<div class="btn_action">
-									<button class="btn btn-default btn-lg btn-submit">입력완료</button>
+									
 									<button class="btn btn-default btn-lg">목록으로</button>
 								</div>
 
@@ -344,7 +264,7 @@ String cp = request.getContextPath();
 	</div>
 
 
-	<c:import url="Footer.jsp"></c:import>
+	<c:import url="../Footer.jsp"></c:import>
 
 </body>
 </html>

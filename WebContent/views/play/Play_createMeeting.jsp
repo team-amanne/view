@@ -74,8 +74,8 @@ select
 <body>
 
 	<!-- 헤더 -->
-	<c:import url="Header.jsp"></c:import>
-	<c:import url="Submenu.jsp"></c:import>
+	<c:import url="../Header.jsp"></c:import>
+	<c:import url="../Submenu.jsp"></c:import>
 
 <!------------------------------------------ 바디 ------------------------------------------------>
 	<div class="container-fluid main">
@@ -306,7 +306,7 @@ select
 		</div>
 	</div>
 <!----------------------------바디 영역 끝 ------------------------->
-	<c:import url="Footer.jsp"></c:import>
+	<c:import url="../Footer.jsp"></c:import>
 
 </body>
 </html>

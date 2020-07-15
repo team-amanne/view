@@ -82,8 +82,8 @@ String cp = request.getContextPath();
 <body>
 
 	<!-- 헤더 -->
-	<c:import url="Header.jsp"></c:import>
-	<c:import url="Submenu.jsp"></c:import>
+	<c:import url="../Header.jsp"></c:import>
+	<c:import url="../Submenu.jsp"></c:import>
 
 	<div class="container-fluid main">
 		<div class="section-title container">
@@ -560,13 +560,10 @@ String cp = request.getContextPath();
 				</div>
 			</div>
 		</div>
-
-
-
 	</div>
 
 
-	<c:import url="Footer.jsp"></c:import>
+	<c:import url="../Footer.jsp"></c:import>
 
 </body>
 </html>

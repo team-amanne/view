@@ -28,7 +28,7 @@ String cp = request.getContextPath();
 	<div class="col-md-4">
 
 		<div class="col-md-12">
-			<h3>모임 신고</+h3>
+			<h3>모임 신고</h3>
 		</div>
 		<div class="col-md-12">
 		<div class="panel panel-default">

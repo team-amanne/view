@@ -48,8 +48,8 @@ String cp = request.getContextPath();
 <body>
 
 	<!-- 헤더 -->
-	<c:import url="Header.jsp"></c:import>
-	<c:import url="Submenu.jsp"></c:import>
+	<c:import url="../Header.jsp"></c:import>
+	<c:import url="../Submenu.jsp"></c:import>
 
 	<div class="container-fluid main">
 		<div class="section-title container">
@@ -57,8 +57,8 @@ String cp = request.getContextPath();
 			<hr />
 		</div>
 		<div class="col-md-12">
-		<div class="col-md-3"></div>
-		<div class="col-md-2">
+		<div class="col-md-2"></div>
+		<div class="col-md-3">
 			<div class="panel panel-default">
 				<div class="panel-body">
 					<div class="col-md-9">
@@ -71,7 +71,7 @@ String cp = request.getContextPath();
 			</div>
 		</div>
 		<div class="col-md-2"></div>
-		<div class="col-md-2">
+		<div class="col-md-3">
 			<div class="panel panel-default">
 				<div class="panel-body">
 					<div class="col-md-9">
@@ -83,7 +83,7 @@ String cp = request.getContextPath();
 				</div>
 			</div>
 		</div>
-		<div class="col-md-3"></div>
+		<div class="col-md-2"></div>
 		</div>
 
 		<!-- 모임 목록 -->
@@ -418,7 +418,7 @@ String cp = request.getContextPath();
 			</div>
 
 
-			<c:import url="Footer.jsp"></c:import>
+			<c:import url="../Footer.jsp"></c:import>
 		</div>
 	</div>
 

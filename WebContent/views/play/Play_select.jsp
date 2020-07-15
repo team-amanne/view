@@ -11,7 +11,6 @@ String cp = request.getContextPath();
 <title>농구하기</title>
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-<!-- 공통 헤더 -->
 <style type="text/css">
 
 	.col-party 
@@ -20,17 +19,18 @@ String cp = request.getContextPath();
 		border-radius: 30px;
 		height: 300px;
 		padding-top: 60px;
-		margin: 80px auto auto auto;
+		margin: 100px auto auto auto;
 	}
 </style>
 </head>
 <body>
 
 	<!-- 헤더 -->
-<c:import url="Header.jsp"></c:import>
-<c:import url="Submenu.jsp"></c:import>
+<c:import url="../Header.jsp"></c:import>
+<c:import url="../Submenu.jsp"></c:import>
 
-	<div class="container-fluid main">
+
+	<div class="container-fluid">
 		<div class="section-title">
 			<h5>농구하기 > 사용자선택</h5>
 			<hr />
@@ -41,8 +41,8 @@ String cp = request.getContextPath();
 					<div class="col-md-4">
 						<div class="panel panel-default col-party">
 							<div class="panel-body">
-								<h2>파티</h2>
-								<p>친구들과 함께</p>
+								<h2>빠른농구</h2>
+								<p>지금 당장 농구하고 싶다면?</p>
 								<button class="btn btn-default">PLAY</button>
 							</div>
 						</div>
@@ -50,8 +50,8 @@ String cp = request.getContextPath();
 					<div class="col-md-4">
 						<div class="panel panel-default col-party">
 							<div class="panel-body">
-								<h2>개인</h2>
-								<p>혼자서 재밌게</p>
+								<h2>함께농구</h2>
+								<p>나에게 꼭 맞는 모임은?</p>
 								<button class="btn btn-default">PLAY</button>
 							</div>
 						</div>
@@ -64,7 +64,7 @@ String cp = request.getContextPath();
 		</div>
 	</div>
 	
-	<c:import url="Footer.jsp"></c:import>
+<c:import url="../Footer.jsp"></c:import>
 	
 
 </body>
