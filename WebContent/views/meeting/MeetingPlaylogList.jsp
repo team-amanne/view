@@ -10,7 +10,7 @@ String cp = request.getContextPath();
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="<%=cp %>/css/default.css">
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 <style type="text/css">
@@ -77,7 +77,7 @@ String cp = request.getContextPath();
 							<div class="col-md-4"></div>
 							<div class="col-md-6"></div>
 							<div class="col-md-2">
-								<button class="btn submit-btn" type="button">더보기</button>
+								<button class="btn btn-submit" type="button">더보기</button>
 							</div>
 						</div>
 

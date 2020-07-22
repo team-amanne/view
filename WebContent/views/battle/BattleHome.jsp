@@ -25,7 +25,7 @@ String cp = request.getContextPath();
 <body>
 
 		<c:import url="../base/Header.jsp"></c:import>
-<c:import url="../base/Submenu.jsp"></c:import>
+<c:import url="../base/BattleSubmenu.jsp"></c:import>
 
 	<div class="container-fuild main">
 		<div class="section-title container">
@@ -547,14 +547,13 @@ String cp = request.getContextPath();
 
 					<!--재고된 대전  -->
 					<div role="tabpanel" class="tab-pane active" id="home">
-						<!-- 대전 수신함 -->
 						<div class="row">
 							<div class="col-md-12">
 								<div class="row top">
 									<div class="col-md-12" align="left">
 
 										<p class="subtitle-text">
-											대전 수신 <span class="text-orange">n</span> 개
+											재고 대전 <span class="text-orange">n</span> 개
 										</p>
 									</div>
 								</div>
@@ -663,7 +662,7 @@ String cp = request.getContextPath();
 								<ul class="list-group">
 									<li class="list-group-item board-body board-header">
 										<div class="row">
-											<div class="col-sm-2 col-xs-2">
+											<div class="col-sm-1 col-xs-1">
 												<span>번호</span>
 											</div>
 											<div class="col-md-3 col-md-3">
@@ -678,11 +677,13 @@ String cp = request.getContextPath();
 											<div class="col-md-2 col-xs-2">
 												<span>모임 일시</span>
 											</div>
+											<div class="col-md-1 col-xs-1">
+											</div>
 										</div>
 									</li>
 									<li class="list-group-item board-body">
 										<div class="row">
-											<div class="col-sm-2 col-xs-2">
+											<div class="col-ms-1 col-xs-1">
 												<span>10</span>
 											</div>
 											<div class="col-md-3 col-md-3">
@@ -697,11 +698,14 @@ String cp = request.getContextPath();
 											<div class="col-md-2 col-xs-2">
 												<span>2020-08-01</span>
 											</div>
+											<div class="col-md-1 col-xs-1">
+												<button class="btn btn-default btn-link btn-xs">입력</button>
+											</div>
 										</div>
 									</li>
 									<li class="list-group-item board-body">
 										<div class="row">
-											<div class="col-sm-2 col-xs-2">
+											<div class="col-ms-1 col-xs-1">
 												<span>10</span>
 											</div>
 											<div class="col-md-3 col-md-3">
@@ -716,11 +720,14 @@ String cp = request.getContextPath();
 											<div class="col-md-2 col-xs-2">
 												<span>2020-08-01</span>
 											</div>
+											<div class="col-md-1 col-xs-1">
+												<button class="btn btn-default btn-link btn-xs">입력</button>
+											</div>
 										</div>
 									</li>
 									<li class="list-group-item board-body">
 										<div class="row">
-											<div class="col-sm-2 col-xs-2">
+											<div class="col-ms-1 col-xs-1">
 												<span>10</span>
 											</div>
 											<div class="col-md-3 col-md-3">
@@ -735,11 +742,14 @@ String cp = request.getContextPath();
 											<div class="col-md-2 col-xs-2">
 												<span>2020-08-01</span>
 											</div>
+											<div class="col-md-1 col-xs-1">
+												<button class="btn btn-default btn-link btn-xs">입력</button>
+											</div>
 										</div>
 									</li>
 									<li class="list-group-item board-body">
 										<div class="row">
-											<div class="col-sm-2 col-xs-2">
+											<div class="col-ms-1 col-xs-1">
 												<span>10</span>
 											</div>
 											<div class="col-md-3 col-md-3">
@@ -754,11 +764,14 @@ String cp = request.getContextPath();
 											<div class="col-md-2 col-xs-2">
 												<span>2020-08-01</span>
 											</div>
+											<div class="col-md-1 col-xs-1">
+												<button class="btn btn-default btn-link btn-xs">입력</button>
+											</div>
 										</div>
 									</li>
 									<li class="list-group-item board-body">
 										<div class="row">
-											<div class="col-sm-2 col-xs-2">
+											<div class="col-ms-1 col-xs-1">
 												<span>10</span>
 											</div>
 											<div class="col-md-3 col-md-3">
@@ -773,11 +786,14 @@ String cp = request.getContextPath();
 											<div class="col-md-2 col-xs-2">
 												<span>2020-08-01</span>
 											</div>
+											<div class="col-md-1 col-xs-1">
+												<button class="btn btn-default btn-link btn-xs">입력</button>
+											</div>
 										</div>
 									</li>
 									<li class="list-group-item board-body">
 										<div class="row">
-											<div class="col-sm-2 col-xs-2">
+											<div class="col-ms-1 col-xs-1">
 												<span>10</span>
 											</div>
 											<div class="col-md-3 col-md-3">
@@ -791,6 +807,9 @@ String cp = request.getContextPath();
 											</div>
 											<div class="col-md-2 col-xs-2">
 												<span>2020-08-01</span>
+											</div>
+											<div class="col-md-1 col-xs-1">
+												<button class="btn btn-default btn-link btn-xs">입력</button>
 											</div>
 										</div>
 									</li>

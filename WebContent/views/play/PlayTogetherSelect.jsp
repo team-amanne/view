@@ -12,8 +12,8 @@ String cp = request.getContextPath();
 <title>Insert title here</title>
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-<link rel="stylesheet" href="../../css/board.css" />
-<link rel="stylesheet" href="../../css/default.css" />
+<link rel="stylesheet" href="<%=cp %>/css/board.css" />
+<link rel="stylesheet" href="<%=cp %>/css/default.css" />
 <style type="text/css">
 .radio {
 	vertical-align: baseline;
@@ -85,7 +85,7 @@ String cp = request.getContextPath();
 
 	<!-- 헤더 -->
 		<c:import url="../base/Header.jsp"></c:import>
-<c:import url="../base/Submenu.jsp"></c:import>
+<c:import url="../base/PlaySubmenu.jsp"></c:import>
 
 	<div class="container-fluid main">
 		<div class="section-title container">
@@ -204,34 +204,34 @@ String cp = request.getContextPath();
 											<h4>코트 정보</h4>
 											<ul class="list-group">
 												<li class="list-group-item">
-													<div class="col-md-7 courtInfo"><span class="board-header">코트이름</span></div>
+													<div class="col-md-7 courtInfo"><span class="">코트이름</span></div>
 													<p>아맞네</p>
 												</li>
 												<li class="list-group-item">
-													<div class="col-md-7 courtInfo"><span class="board-header">적정인원</span></div>
+													<div class="col-md-7 courtInfo"><span class="">적정인원</span></div>
 													<p>4~8</p>
 												</li>
 												<li class="list-group-item">
-													<div class="col-md-7 courtInfo"><span class="board-header">코트등급</span></div>
+													<div class="col-md-7 courtInfo"><span class="">코트등급</span></div>
 													<p>B</p>
 												</li>
 												<li class="list-group-item satisfy">
-													<div class="col-md-12 courtInfo"><span class="board-header">만족도</span></div> <span
+													<div class="col-md-12 courtInfo"><span class="">만족도</span></div> <span
 													class="star-score">★★★☆☆</span>
 												</li>
 											</ul>
 											<h4>코트 시설</h4>
 											<ul class="list-group">
 												<li class="list-group-item">
-													<div class="col-md-7 courtInfo"><span class="board-header">화장실</span></div> <span
+													<div class="col-md-7 courtInfo"><span class="">화장실</span></div> <span
 													class="glyphicon glyphicon-ok-sign"></span>
 												</li>
 												<li class="list-group-item">
-													<div class="col-md-7 courtInfo"><span class="board-header">샤워실</span></div> <span
+													<div class="col-md-7 courtInfo"><span class="">샤워실</span></div> <span
 													class="glyphicon glyphicon-remove-sign"></span>
 												</li>
 												<li class="list-group-item">
-													<div class="col-md-7 courtInfo"><span class="board-header">주차장</span></div> <span
+													<div class="col-md-7 courtInfo"><span class="">주차장</span></div> <span
 													class="glyphicon glyphicon-remove-sign"></span>
 												</li>
 											</ul>

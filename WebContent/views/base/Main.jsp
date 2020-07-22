@@ -70,7 +70,6 @@ margin-top: 23%;
 <body>
 
 	<c:import url="Header.jsp"></c:import>
-	<c:import url="Submenu.jsp"></c:import>
 
 <div class="container-fuild">
 	<div id="carousel-example-generic"

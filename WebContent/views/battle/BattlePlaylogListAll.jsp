@@ -37,7 +37,7 @@ text-orange {
 <body>
 
 		<c:import url="../base/Header.jsp"></c:import>
-<c:import url="../base/Submenu.jsp"></c:import>
+<c:import url="../base/BattleSubmenu.jsp"></c:import>
 
 
 	<div class="container-fuild main">
@@ -158,22 +158,22 @@ text-orange {
 								<ul class="list-group">
 									<li class="list-group-item board-body board-header">
 										<div class="row">
-											<div class="col-sm-2 col-xs-2">
+											<div class="col-sm-1 col-xs-1">
 												<span>번호</span>
 											</div>
-											<div class="col-md-2 col-xs-2">
+											<div class="col-md-3 col-xs-3">
 												<span>상대</span>
 											</div>
-											<div class="col-md-2 col-xs-2">
+											<div class="col-md-3 col-xs-3">
 												<span>장소</span>
 											</div>
-											<div class="col-md-2 col-xs-2">
+											<div class="col-md-3 col-xs-3">
 												<span>일시</span>
 											</div>
-											<div class="col-md-2 col-xs-2">
+											<div class="col-md-1 col-xs-1">
 												<span>상태</span>
 											</div>
-											<div class="col-md-2 col-xs-2">
+											<div class="col-md-1 col-xs-1">
 												<span>결과</span>
 											</div>
 										</div>
@@ -181,67 +181,67 @@ text-orange {
 
 									<li class="list-group-item board-body">
 										<div class="row">
-											<div class="col-sm-2 col-xs-2">
+											<div class="col-sm-1 col-xs-1">
 												<span>10</span>
 											</div>
-											<div class="col-md-2 col-xs-2">
+											<div class="col-md-3 col-xs-3">
 												<span>아맞네</span>
 											</div>
-											<div class="col-md-2 col-xs-2">
+											<div class="col-md-3 col-xs-3">
 												<span>서울 마포구 쌍용코트</span>
 											</div>
-											<div class="col-md-2 col-xs-2">
+											<div class="col-md-3 col-xs-3">
 												<span>2020-07-20 18:00</span>
 											</div>
-											<div class="col-md-2 col-xs-2">
+											<div class="col-md-1 col-xs-1">
 												<span>미입력</span>
 											</div>
-											<div class="col-md-2 col-xs-2">
+											<div class="col-md-1 col-xs-1">
 												<span>미입력</span>
 											</div>
 										</div>
 									</li>
 									<li class="list-group-item board-body">
 										<div class="row">
-											<div class="col-sm-2 col-xs-2">
+											<div class="col-sm-1 col-xs-1">
 												<span>10</span>
 											</div>
-											<div class="col-md-2 col-xs-2">
-												<span>아맞네동생네</span>
+											<div class="col-md-3 col-xs-3">
+												<span>아맞네</span>
 											</div>
-											<div class="col-md-2 col-xs-2">
+											<div class="col-md-3 col-xs-3">
 												<span>서울 마포구 쌍용코트</span>
 											</div>
-											<div class="col-md-2 col-xs-2">
+											<div class="col-md-3 col-xs-3">
 												<span>2020-07-20 18:00</span>
 											</div>
-											<div class="col-md-2 col-xs-2">
-												<span>입력 완료</span>
+											<div class="col-md-1 col-xs-1">
+												<span>미입력</span>
 											</div>
-											<div class="col-md-2 col-xs-2">
-												<span>대기</span>
+											<div class="col-md-1 col-xs-1">
+												<span>미입력</span>
 											</div>
 										</div>
 									</li>
 									<li class="list-group-item board-body">
 										<div class="row">
-											<div class="col-sm-2 col-xs-2">
+											<div class="col-sm-1 col-xs-1">
 												<span>10</span>
 											</div>
-											<div class="col-md-2 col-xs-2">
-												<span>아맞네 할아버지네</span>
+											<div class="col-md-3 col-xs-3">
+												<span>아맞네</span>
 											</div>
-											<div class="col-md-2 col-xs-2">
+											<div class="col-md-3 col-xs-3">
 												<span>서울 마포구 쌍용코트</span>
 											</div>
-											<div class="col-md-2 col-xs-2">
+											<div class="col-md-3 col-xs-3">
 												<span>2020-07-20 18:00</span>
 											</div>
-											<div class="col-md-2 col-xs-2">
-												<span>입력 완료</span>
+											<div class="col-md-1 col-xs-1">
+												<span>미입력</span>
 											</div>
-											<div class="col-md-2 col-xs-2">
-												<span>승리</span>
+											<div class="col-md-1 col-xs-1">
+												<span>미입력</span>
 											</div>
 										</div>
 									</li>

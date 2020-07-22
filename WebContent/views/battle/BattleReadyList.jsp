@@ -16,7 +16,7 @@ String cp = request.getContextPath();
 </head>
 <body>
 		<c:import url="../base/Header.jsp"></c:import>
-<c:import url="../base/Submenu.jsp"></c:import>
+<c:import url="../base/BattleSubmenu.jsp"></c:import>
 
 	<div class="container-fuild main">
 		<div class="section-title container">
