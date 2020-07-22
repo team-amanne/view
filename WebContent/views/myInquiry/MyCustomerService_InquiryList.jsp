@@ -120,11 +120,12 @@
 
 
 </style>
-<link rel="stylesheet" type="text/css" href="<%=cp %>/css/default.css">
 <link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
+   href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<link rel="stylesheet"
+   href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+<link rel="stylesheet" type="text/css" href="<%=cp%>/css/default.css">
+<link rel="stylesheet" href="<%=cp%>/css/board.css" />
 </head>
 <body>
 
@@ -165,7 +166,6 @@
 		</div>
 		<div class="col-md-2">
 		</div>
-		
 	</div>
 	<div class="row">
 		<div class="col-md-2">
@@ -247,7 +247,7 @@
 							<span>2020.07.10</span>
 						</div>
 						<div class="col-md-2">
-							<span class="board-header">[ <span style="color: green; font-weight: bold;">접수완료</span> ]</span>
+							<span>[ <span style="color: green; font-weight: bold;">접수완료</span> ]</span>
 						</div>
 					</li>
 					<li class="list-group-item post_board">
@@ -270,7 +270,7 @@
 							<span>2020.07.10</span>
 						</div>
 						<div class="col-md-2">
-							<span class="board-header">[ <span style="color: green; font-weight: bold;">접수완료</span> ]</span>
+							<span>[ <span style="color: green; font-weight: bold;">접수완료</span> ]</span>
 						</div>
 					</li>
 					<li class="list-group-item post_board">
@@ -293,7 +293,7 @@
 							<span>2020.07.10</span>
 						</div>
 						<div class="col-md-2">
-							<span class="board-header">[ <span style="color: green; font-weight: bold;">접수완료</span> ]</span>
+							<span>[ <span style="color: green; font-weight: bold;">접수완료</span> ]</span>
 						</div>
 					</li>
 					<li class="list-group-item post_board">
@@ -316,7 +316,7 @@
 							<span>2020.07.10</span>
 						</div>
 						<div class="col-md-2">
-							<span class="board-header">[ <span style="color: blue; font-weight: bold;">처리중</span> ]</span>
+							<span>[ <span style="color: blue; font-weight: bold;">처리중</span> ]</span>
 						</div>
 					</li>
 					<li class="list-group-item post_board">
@@ -339,7 +339,7 @@
 							<span>2020.07.10</span>
 						</div>
 						<div class="col-md-2">
-							<span class="board-header">[ <span style="color: blue; font-weight: bold;">처리중</span> ]</span>
+							<span>[ <span style="color: blue; font-weight: bold;">처리중</span> ]</span>
 						</div>
 					</li>
 					<li class="list-group-item post_board">
@@ -362,7 +362,7 @@
 							<span>2020.07.10</span>
 						</div>
 						<div class="col-md-2">
-							<span class="board-header">[ <span style="color: blue; font-weight: bold;">처리중</span> ]</span>
+							<span>[ <span style="color: blue; font-weight: bold;">처리중</span> ]</span>
 						</div>
 					</li>
 					<li class="list-group-item post_board">
@@ -385,7 +385,7 @@
 							<span>2020.07.10</span>
 						</div>
 						<div class="col-md-2">
-							<span class="board-header">[ <span style="color: blue; font-weight: bold;">처리중</span> ]</span>
+							<span>[ <span style="color: blue; font-weight: bold;">처리중</span> ]</span>
 						</div>
 					</li>
 					<li class="list-group-item post_board">
@@ -408,7 +408,7 @@
 							<span>2020.07.10</span>
 						</div>
 						<div class="col-md-2">
-							<span class="board-header">[ <span style="color: red; font-weight: bold;">처리완료</span> ]</span>
+							<span>[ <span style="color: red; font-weight: bold;">처리완료</span> ]</span>
 						</div>
 					</li>
 					<li class="list-group-item post_board">
@@ -431,7 +431,7 @@
 							<span>2020.07.10</span>
 						</div>
 						<div class="col-md-2">
-							<span class="board-header">[ <span style="color: red; font-weight: bold;">처리완료</span> ]</span>
+							<span>[ <span style="color: red; font-weight: bold;">처리완료</span> ]</span>
 						</div>
 					</li>
 					<li class="list-group-item post_board">
@@ -454,24 +454,13 @@
 							<span>2020.07.10</span>
 						</div>
 						<div class="col-md-2">
-							<span class="board-header">[ <span style="color: red; font-weight: bold;">처리완료</span> ]</span>
+							<span>[ <span style="color: red; font-weight: bold;">처리완료</span> ]</span>
 						</div>
 					</li>
-					
-
 				</ul>		
 			</div>
 		<div class="col-md-2"></div>
 				
-		<div class="col-md-2">
-		</div>
-	</div>
-	
-	<div class="row">
-		<div class="col-md-2">
-		</div>
-		<div class="col-md-8">
-		</div>
 		<div class="col-md-2">
 		</div>
 	</div>
@@ -536,22 +525,9 @@
 		<div class="col-md-2">
 		</div>
 	</div>
-	
-	<div class="row">
-		<div class="col-md-2">
-		</div>
-		<div class="col-md-2">
-		</div>
-		<div class="col-md-4">
-		</div>
-		<div class="col-md-2">
-		</div>
-		<div class="col-md-2">
-		</div>
-	</div>
 </div>
 
-<c:import url="Footer.jsp"></c:import>
+<c:import url="../base/Footer.jsp"></c:import>
 
 </body>
 </html>

@@ -15,17 +15,21 @@
 .flex
 {
 	display: flex;
-	margin-left: auto;
-	width: 80%;
 }
 
-/* 크루명 */
-#crew_name
+.crew_name
 {
-	margin-left: 155px;
+	display: flex;
 	margin-bottom: 10px;
-	width: 279px;
 }
+
+.crew_value
+{
+	display: flex;
+	width: 300px;
+    margin-left: 10%;
+}
+
 
 /* 크루명 중복확인 */
 #crew_certify
@@ -43,79 +47,62 @@
 	margin-top: 5px;
 }
 
-/* 연령 라디오버튼 */
-#age
-{
-	margin-right: 5px;
-	width: 220px;
-}
 
-/* yes no */
-#no, #yes
-{
-	height: 20px;
-    width: 20px;
-}
-
-/* 라디오버튼 크기 */
-.radio_button
-{
-	font-size: 15pt;
-}
-
-거점지역 
+/* 거점지역 */
 #region
 {
-	/* margin-left: 135px;
-	margin-bottom: 10px; */
-	width: 40%;
-} 
-
-/* 전화번호 2번째 입력칸 */
-#age1
-{
-	width: 40px;
-	margin-left: 7px;
-	margin-right: 7px;
-	margin-bottom: 10px;
+    margin-left: 7.5%;
+    margin-bottom: 10px;
+    width: 150px;
 }
 
-/* 전화번호 3번째 입력칸 */
-#age2
+/* 시군구  */
+#region2
 {
-	width: 40px;
-	margin-bottom: 10px;
+	width: 150px;
+    margin-left: 10px;
+}
+
+/* 연령대 */
+#age
+{
+	width: 150px;
+    margin-left: 4.2%;
+}
+
+/* 지역추가 */
+.select_region
+{
+	margin-left: auto;
+    width: 75%;
+}
+
+#ability
+{
+	width: 150px;
+    margin-left: 7.1%;
+}
+
+#fairplay
+{
+	width: 240px;
+    margin-left: 4%;
 }
 
 /* 크루생성, 취소 버튼 포함클래스 */
 .last_button
 {
-	margin-left: auto;
-    width: 480px;
+    margin-left: auto;
+    width: 60%;
     margin-top: 50px;
 }
 
 /* 크루생성 버튼 */
-#create
+#create, #cancel, #add
 {
 	margin-left: 10px;
 	width: 98px;
 	height: 34px;
-}
-
-/* 취소 버튼 */
-#cancel
-{
-	margin-left: 10px;
-	width: 98px;
-	height: 34px;
-}
-
-/* 하이폰용 */
-#space2
-{	
-	margin-right: 6px;
-	font-size: 15pt;
 }
 
 </style>
@@ -135,81 +122,85 @@
 
 <div class="container-fluid">
       <div class="section-title container">
-         <h5>메인 홈 > 크루 메인 > 크루 생성 </h5>
+         <p>메인 홈 > 크루 메인 > 크루 생성 </p>
          <hr />
       </div>
-	<div class="row">
-		<div class="col-md-2">
+	<div class="row" style="margin-left: auto; width: 90%;">
+		<div class="col-md-3">
 		</div>
-		<div class="col-md-8 input_content">
-			<div class="flex">
+		<div class="col-md-6">
+			<div class="crew_name">
 				<label class="f_size">크루명*</label>
-				<span><input type="email" class="form-control" id="crew_name" placeholder="크루명"></span>
+				<div class="crew_value">
+					<input type="email" class="form-control" id="crew_name" placeholder="크루명">
 				
-				<button class="btn btn-warning" id="crew_certify">중복확인</button>
+					<button class="btn btn-warning" id="crew_certify">중복확인</button>
+				</div>
 			</div>
 			
 			<div class="flex">
-				<div class="col-sm-3 col-xs-3">
-					<label class="f_size">거점지역*</label>
-				</div>
-				<div class="col-sm-5 col-xs-5">
+				<label class="f_size">거점지역*</label>
 					<select class="form-control" id="region">
 						<option selected="selected">지역선택</option>
-						<option>서울특별시</option>
-						<option>인천광역시</option>
-						<option>부산광역시</option>
-						<option>대구광역시</option>
-						<option>울산광역시</option>
-						<option>광주광역시</option>
+						<option>서울</option>
+						<option>인천</option>
+						<option>대전</option>
+						<option>부산</option>
+						<option>대구</option>
+						<option>광주</option>
 					</select>
 					<select class="form-control" id="region2">
-						<option selected="selected">지역선택</option>
-						<option>은평구</option>
+						<option selected="selected">시군구선택</option>
 						<option>마포구</option>
-						<option>서대문구</option>
+						<option>강남구</option>
+						<option>서초구</option>
 					</select>
-				</div>
-				<div class="col-sm-4 col-xs-4"></div>
+				<button class="btn btn-warning" id="add">추가</button>
+			</div>
+			<div class="select_region">
+				<p style="font-weight: bold;">[ 서울특별시 마포구 ]</p>
+				<p>[ 지역을 추가하세요 ]</p>
+				<p>[ 지역을 추가하세요 ]</p>
+			</div>
+
+			
+			<div class="flex">
+				<label class="f_size">연령대 제한*</label>
+					<select class="form-control" id="age">
+						<option selected="selected">연령선택</option>
+						<option>10대</option>
+						<option>20대</option>
+						<option>30대</option>
+						<option>40대</option>
+						<option>50대</option>
+						<option>60대 이상</option>
+						<option>연령제한 없음</option>
+					</select>
 			</div>
 			
 			<div class="flex">
-				<label class="f_size" id="age">연령대 제한*</label>
-					<label class="radio-inline radio_button">
-					  	<input type="radio" name="inlineRadioOptions" id="no" value="no">없음
-					</label>
-					<label class="radio-inline radio_button">
-					  	<input type="radio" name="inlineRadioOptions" id="yes" value="yes">있음
-					</label>
-					
-						<input type="text" class="form-control" id="age1">
-						<div id="space2"> ~ </div>
-						<input type="text" class="form-control" id="age2">
+				<label class="f_size">실력 제한*</label>
+					<select class="form-control" id="ability">
+						<option selected="selected">실력선택</option>
+						<option>하</option>
+						<option>중</option>
+						<option>상</option>
+						<option>실력제한 없음</option>
+					</select>
 			</div>
 			
 			<div class="flex">
-				<label class="f_size" id="age">실력 제한*</label>
-					<label class="radio-inline radio_button">
-					  	<input type="radio" name="inlineRadioOptions" id="no" value="no">없음
-					</label>
-					<label class="radio-inline radio_button">
-					  	<input type="radio" name="inlineRadioOptions" id="yes" value="yes">있음
-					</label>
-						<input type="text" class="form-control" id="age1">
+				<label class="f_size">페어플레이 점수제한*</label>
+					<select class="form-control" id="fairplay">
+						<option selected="selected">페어플레이 점수 제한</option>
+						<option>1점대</option>
+						<option>2점대</option>
+						<option>3점대</option>
+						<option>4점대</option>						
+						<option>5점대</option>
+						<option>점수제한 없음</option>
+					</select>
 			</div>
-			
-			<div class="flex">
-				<label class="f_size" id="age">페어플레이 점수제한*</label>
-					<label class="radio-inline radio_button">
-					  	<input type="radio" name="inlineRadioOptions" id="no" value="no">없음
-					</label>
-					<label class="radio-inline radio_button">
-					  	<input type="radio" name="inlineRadioOptions" id="yes" value="yes">있음
-					</label>
-					
-						<input type="text" class="form-control" id="age1">
-			</div>
-			
 		</div>
 		<div class="col-md-3">
 		</div>
@@ -223,7 +214,7 @@
 				<button class="btn btn-warning" id="cancel">취소</button>
 			</div>
 		</div>
-		<div class="col-md-2">
+		<div class="col-md-3">
 		</div>
 	</div>
 </div>
