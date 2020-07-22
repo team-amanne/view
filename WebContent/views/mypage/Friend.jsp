@@ -279,6 +279,7 @@
 									</div>
 								</div>
 							</div>
+							
 							<br>
 							<br>
 							
@@ -322,7 +323,6 @@
 									</div>
 								</div>
 							</div>
-							
 							<div class="panel panel-default">
 								<div class="row panel-body">
 									<div class="col-sm-2 col-xs-2 member-profile">

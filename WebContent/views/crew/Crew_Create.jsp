@@ -177,6 +177,7 @@
 						<option>마포구</option>
 						<option>강남구</option>
 						<option>서초구</option>
+						<option>은평구</option>
 					</select>
 				<button class="btn btn-warning" id="add">추가</button>
 			</div>
