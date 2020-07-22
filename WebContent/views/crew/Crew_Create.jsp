@@ -70,6 +70,13 @@
     margin-left: 4.2%;
 }
 
+/* 연령대2 */
+#age2
+{
+	width: 150px;
+    margin-left: 1.5%;
+}
+
 /* 지역추가 */
 .select_region
 {
@@ -77,16 +84,32 @@
     width: 75%;
 }
 
+/* 실력제한 */
 #ability
 {
 	width: 150px;
     margin-left: 7.1%;
 }
 
+/* 실력제한2 */
+#ability2
+{
+	width: 150px;
+    margin-left: 1.5%;
+}
+
+/* 페어플레이점수 */
 #fairplay
 {
 	width: 240px;
-    margin-left: 4%;
+    margin-left: 3%;
+}
+
+/* 페어플레이점수2 */
+#fairplay2
+{
+	width: 240px;
+    margin-left: 1.5%;
 }
 
 /* 크루생성, 취소 버튼 포함클래스 */
@@ -167,7 +190,18 @@
 			<div class="flex">
 				<label class="f_size">연령대 제한*</label>
 					<select class="form-control" id="age">
-						<option selected="selected">연령선택</option>
+						<option selected="selected">최소 연령선택</option>
+						<option>10대</option>
+						<option>20대</option>
+						<option>30대</option>
+						<option>40대</option>
+						<option>50대</option>
+						<option>60대 이상</option>
+						<option>연령제한 없음</option>
+					</select>
+					<span style="font-size: 18pt; margin-left: 10px;"> ~ </span>
+					<select class="form-control" id="age2">
+						<option selected="selected">최대 연령선택</option>
 						<option>10대</option>
 						<option>20대</option>
 						<option>30대</option>
@@ -181,7 +215,15 @@
 			<div class="flex">
 				<label class="f_size">실력 제한*</label>
 					<select class="form-control" id="ability">
-						<option selected="selected">실력선택</option>
+						<option selected="selected">최소 실력선택</option>
+						<option>하</option>
+						<option>중</option>
+						<option>상</option>
+						<option>실력제한 없음</option>
+					</select>
+					<span style="font-size: 18pt; margin-left: 10px;"> ~ </span>
+					<select class="form-control" id="ability2">
+						<option selected="selected">최대 실력선택</option>
 						<option>하</option>
 						<option>중</option>
 						<option>상</option>
@@ -190,9 +232,19 @@
 			</div>
 			
 			<div class="flex">
-				<label class="f_size">페어플레이 점수제한*</label>
+				<label class="f_size">페어플레이점수 제한*</label>				
 					<select class="form-control" id="fairplay">
-						<option selected="selected">페어플레이 점수 제한</option>
+						<option selected="selected">최소 페어플레이 점수 제한</option>
+						<option>1점대</option>
+						<option>2점대</option>
+						<option>3점대</option>
+						<option>4점대</option>						
+						<option>5점대</option>
+						<option>점수제한 없음</option>
+					</select>
+					<span style="font-size: 18pt; margin-left: 10px;"> ~ </span>
+					<select class="form-control" id="fairplay2">
+						<option selected="selected">최대 페어플레이 점수 제한</option>
 						<option>1점대</option>
 						<option>2점대</option>
 						<option>3점대</option>

@@ -170,6 +170,8 @@
 								</div>
 							</li>
 						</ul>	
+						<br>
+						<br>
 						<p class="subtitle-text">친구신청 발신함</p>		
 							<div class="panel panel-default">
 								<div class="row panel-body">
@@ -193,13 +195,11 @@
 								</div>
 								<hr>
 								<div class="row panel-body">
-									<div class="col-sm-3 col-xs-3">
-										<span>친구신청 발신일 ｜ </span> <span>2020/07/24</span>
+									<div class="col-sm-6 col-xs-6">
+										<span>친구신청 발신일 ｜ </span> <span>2020/07/22 13:55</span>
 									</div>
 									<div class="col-sm-3 col-xs-3">
 										<span>수신상태 ｜ </span> <span style="color: red;">읽지않음</span>
-									</div>
-									<div class="col-sm-3 col-xs-3">
 									</div>
 									<div class="col-sm-3 col-xs-3">
 										<button type="button" class="btn btn-default btn-submit"
@@ -208,7 +208,7 @@
 										</button>
 									</div>
 								</div>
-							</div>
+							</div>							
 							
 							<div class="panel panel-default">
 								<div class="row panel-body">
@@ -232,13 +232,11 @@
 								</div>
 								<hr>
 								<div class="row panel-body">
-									<div class="col-sm-3 col-xs-3">
-										<span>친구신청 발신일 ｜ </span> <span>2020/07/22</span>
+									<div class="col-sm-6 col-xs-6">
+										<span>친구신청 발신일 ｜ </span> <span>2020/07/22 11:15</span>
 									</div>
 									<div class="col-sm-3 col-xs-3">
 										<span>수신상태 ｜ </span> <span style="color: red;">읽지않음</span>
-									</div>
-									<div class="col-sm-3 col-xs-3">
 									</div>
 									<div class="col-sm-3 col-xs-3">
 										<button type="button" class="btn btn-default btn-submit"
@@ -271,15 +269,96 @@
 								</div>
 								<hr>
 								<div class="row panel-body">
-									<div class="col-sm-3 col-xs-3">
-										<span>친구신청 발신일 ｜ </span> <span>2020/07/22</span>
+									<div class="col-sm-6 col-xs-6">
+										<span>친구신청 발신일 ｜ </span> <span>2020/07/22 09:23</span>
 									</div>
 									<div class="col-sm-3 col-xs-3">
 										<span>수신상태 ｜ </span> <span style="color: blue;">친구수락 완료</span>
 									</div>
 									<div class="col-sm-3 col-xs-3">
 									</div>
+								</div>
+							</div>
+							<br>
+							<br>
+							
+							<p class="subtitle-text">친구신청 수신함</p>		
+							<div class="panel panel-default">
+								<div class="row panel-body">
+									<div class="col-sm-2 col-xs-2 member-profile">
+										<div class="row" style="text-align: center;">
+											<img src="<%=cp%>/views/img/UserProfile.jpg" height="50px;"
+												width="50px;" />
+										</div>										
+									</div>
+									<div class="col-sm-3 col-xs-4">
+										<span class="subtitle-text">길성용</span> <span>(</span> <label
+											class="text-orange">35세</label> <span>)</span>
+									</div>
+									<div class="col-sm-3 col-xs-4 subtitle-text">
+										<span>실력 ｜ </span> <label class="text-orange subtitle-text">LV.5</label>
+									</div>
+									<div class="col-sm-4 col-xs-6 subtitle-text">
+										<span>페어플레이점수 ｜ </span> <label
+											class="text-orange subtitle-text">5.0</label>
+									</div>
+								</div>
+								<hr>
+								<div class="row panel-body">
+									<div class="col-sm-6 col-xs-6">
+										<span>친구신청 수신일 ｜ </span> <span>2020/07/23 10:12</span>
+									</div>
 									<div class="col-sm-3 col-xs-3">
+									</div>
+									<div class="col-sm-3 col-xs-3">
+										<button type="button" class="btn btn-default btn-submit"
+										style="display:inline;">
+											수락
+										</button>
+										<button type="button" class="btn btn-default btn-danger"
+										style="display:inline;">
+											거절
+										</button>
+									</div>
+								</div>
+							</div>
+							
+							<div class="panel panel-default">
+								<div class="row panel-body">
+									<div class="col-sm-2 col-xs-2 member-profile">
+										<div class="row" style="text-align: center;">
+											<img src="<%=cp%>/views/img/UserProfile.jpg" height="50px;"
+												width="50px;" />
+										</div>										
+									</div>
+									<div class="col-sm-3 col-xs-4">
+										<span class="subtitle-text">캐슬아이언</span> <span>(</span> <label
+											class="text-orange">17세</label> <span>)</span>
+									</div>
+									<div class="col-sm-3 col-xs-4 subtitle-text">
+										<span>실력 ｜ </span> <label class="text-orange subtitle-text">LV.1</label>
+									</div>
+									<div class="col-sm-4 col-xs-6 subtitle-text">
+										<span>페어플레이점수 ｜ </span> <label
+											class="text-orange subtitle-text">2.5</label>
+									</div>
+								</div>
+								<hr>
+								<div class="row panel-body">
+									<div class="col-sm-6 col-xs-6">
+										<span>친구신청 수신일 ｜ </span> <span>2020/07/22 06:33</span>
+									</div>
+									<div class="col-sm-3 col-xs-3">
+									</div>
+									<div class="col-sm-3 col-xs-3">
+										<button type="button" class="btn btn-default btn-submit"
+										style="display:inline;">
+											수락
+										</button>
+										<button type="button" class="btn btn-default btn-danger"
+										style="display:inline;">
+											거절
+										</button>
 									</div>
 								</div>
 							</div>
