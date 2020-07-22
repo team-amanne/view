@@ -86,16 +86,16 @@ margin-top: 23%;
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner" role="listbox">
 			<div class="item active main-img" align="center">
-				<img src="img/main_play.jpg" alt="농구하기" width="1200" height="500">
+				<img src="<%=cp %>/views/img/main_play.jpg" alt="농구하기" width="1200" height="500">
 				<div class="carousel-caption">
 				</div>
 			</div>
 			<div class="item" align="center">
-				<img src="img/main_crew.jpg" alt="크루" width="1200" height="500">
+				<img src="<%=cp %>/views/img/main_crew.jpg" alt="크루" width="1200" height="500">
 				<div class="carousel-caption"></div>
 			</div>
 			<div class="item" align="center">
-				<img src="img/main_court.jpg" alt="코트" width="1200" height="500">
+				<img src="<%=cp %>/views/img/main_court.jpg" alt="코트" width="1200" height="500">
 				<div class="carousel-caption"></div>
 			</div>
 			
