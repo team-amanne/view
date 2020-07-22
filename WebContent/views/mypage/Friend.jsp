@@ -8,7 +8,7 @@
 <html>
 <head>
 
-<title>친구관리</title>
+<title>친구관리.jsp</title>
 
 <!-- 부트스트랩/제이쿼리 -->
 <!-- 부트스트랩/제이쿼리 -->

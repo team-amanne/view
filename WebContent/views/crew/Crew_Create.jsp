@@ -185,7 +185,6 @@
 				<p>[ 지역을 추가하세요 ]</p>
 				<p>[ 지역을 추가하세요 ]</p>
 			</div>
-
 			
 			<div class="flex">
 				<label class="f_size">연령대 제한*</label>
@@ -211,7 +210,6 @@
 						<option>연령제한 없음</option>
 					</select>
 			</div>
-			
 			<div class="flex">
 				<label class="f_size">실력 제한*</label>
 					<select class="form-control" id="ability">
@@ -230,7 +228,6 @@
 						<option>실력제한 없음</option>
 					</select>
 			</div>
-			
 			<div class="flex">
 				<label class="f_size">페어플레이점수 제한*</label>				
 					<select class="form-control" id="fairplay">
