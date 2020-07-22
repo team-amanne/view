@@ -11,15 +11,35 @@
 
 <style type="text/css">
 
+
 .a-link
 {
 	border: 0px;
 	background-color: white;
 }
 
+/* 수정 삭제 버튼 */
 #modify, #delete
 {
 	width: 97px;
+}
+
+/* 검색 소속 flex */
+.search
+{
+	display: flex;
+}
+
+/* 검색 카테고리 */
+#search_category
+{
+	width: 120px;
+}
+
+/* 검색입력 */
+#search_content
+{
+	width: 200px;
 }
 
 </style>
@@ -163,6 +183,17 @@
 						</ul>
 						<div class="row"> 
 							<div class="col-md-12">
+								<div class="search">
+									<select class="form-control" id="search_category">
+								 		<option>닉네임</option>
+								  		<option>이메일</option>
+									</select>
+									
+									<input type='text' class="form-control" id="search_content">
+									
+									<button type="button" class="btn btn-default btn-submit">검색</button>
+								</div>	
+							
 							</div>	
 						</div>
 					</div>
