@@ -9,7 +9,7 @@ String cp = request.getContextPath();
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>모임 목록</title>
 <link rel="stylesheet" type="text/css" href="css/main.css">
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
@@ -259,11 +259,8 @@ String cp = request.getContextPath();
 			</div>
 		</div>
 
-		
-
 			<c:import url="../base/Footer.jsp"></c:import>
 		</div>
-	</div>
 
 </body>
 </html>

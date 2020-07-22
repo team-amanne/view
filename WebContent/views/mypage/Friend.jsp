@@ -315,7 +315,6 @@
 			</div>
 		</div>
 
-
 	<c:import url="../base/Footer.jsp"></c:import>
 
 </body>
