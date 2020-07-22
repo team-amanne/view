@@ -8,29 +8,14 @@
 <html>
 <head>
 
-
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-
-
-
 <title>친구관리</title>
 
 <!-- 부트스트랩/제이쿼리 -->
 <!-- 부트스트랩/제이쿼리 -->
-<link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
-<script src="http://code.jquery.com/jquery.min.js"></script>
-<script
-	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+<link rel="stylesheet" type="text/css" href="<%=cp%>/css/default.css">
 <link rel="stylesheet" href="<%=cp%>/css/board.css" />
-<link rel="stylesheet" href="<%=cp%>/css/default.css" />
-
-
-
-
 <style type="text/css">
 .title-text
 {
@@ -65,7 +50,7 @@
 							</div>
 						</div>
 						<ul class="list-group">
-							<li class="list-group-item baard-body baard-header">
+							<li class="list-group-item board-body board-header">
 								<div class="row">
 									<div class="col-sm-1 col-xs-2">
 										<span>PROFILE</span>
@@ -84,7 +69,7 @@
 									<div class="col-md-3 col-xs-6"></div>
 								</div>
 							</li>
-							<li class="list-group-item baard-body">
+							<li class="list-group-item board-body">
 								<div class="row">															
 									<div class="col-sm-1 col-xs-1">
 										<i class="glyphicon glyphicon-user"></i>
@@ -104,7 +89,7 @@
 									</div>	
 								</div>
 							</li>
-							<li class="list-group-item baard-body">
+							<li class="list-group-item board-body">
 								<div class="row">															
 									<div class="col-sm-1 col-xs-1">
 										<i class="glyphicon glyphicon-user"></i>
@@ -124,7 +109,7 @@
 									</div>	
 								</div>
 							</li>
-							<li class="list-group-item baard-body">
+							<li class="list-group-item board-body">
 								<div class="row">															
 									<div class="col-sm-1 col-xs-1">
 										<i class="glyphicon glyphicon-user"></i>
@@ -144,7 +129,7 @@
 									</div>	
 								</div>
 							</li>
-							<li class="list-group-item baard-body">
+							<li class="list-group-item board-body">
 								<div class="row">															
 									<div class="col-sm-1 col-xs-1">
 										<i class="glyphicon glyphicon-user"></i>
@@ -164,7 +149,7 @@
 									</div>	
 								</div>
 							</li>
-							<li class="list-group-item baard-body">
+							<li class="list-group-item board-body">
 								<div class="row">															
 									<div class="col-sm-1 col-xs-1">
 										<i class="glyphicon glyphicon-user"></i>
@@ -183,14 +168,122 @@
 										<button class="btn submit-btn" type="submit">메시지</button>
 									</div>	
 								</div>
-							</li>	
-							<li>						
-								<div class="row">
-								<div class="col-md-12"></div>	
-								</div>
 							</li>
-						</ul>
+						</ul>	
+						<p class="subtitle-text">친구신청 발신함</p>		
+							<div class="panel panel-default">
+								<div class="row panel-body">
+									<div class="col-sm-2 col-xs-2 member-profile">
+										<div class="row" style="text-align: center;">
+											<img src="<%=cp%>/views/img/UserProfile.jpg" height="50px;"
+												width="50px;" />
+										</div>										
+									</div>
+									<div class="col-sm-3 col-xs-4">
+										<span class="subtitle-text">빵돌이</span> <span>(</span> <label
+											class="text-orange">27세</label> <span>)</span>
+									</div>
+									<div class="col-sm-3 col-xs-4 subtitle-text">
+										<span>실력 ｜ </span> <label class="text-orange subtitle-text">LV.2</label>
+									</div>
+									<div class="col-sm-4 col-xs-6 subtitle-text">
+										<span>페어플레이점수 ｜ </span> <label
+											class="text-orange subtitle-text">3.7</label>
+									</div>
+								</div>
+								<hr>
+								<div class="row panel-body">
+									<div class="col-sm-3 col-xs-3">
+										<span>친구신청 발신일 ｜ </span> <span>2020/07/24</span>
+									</div>
+									<div class="col-sm-3 col-xs-3">
+										<span>수신상태 ｜ </span> <span style="color: red;">읽지않음</span>
+									</div>
+									<div class="col-sm-3 col-xs-3">
+									</div>
+									<div class="col-sm-3 col-xs-3">
+										<button type="button" class="btn btn-default btn-submit"
+										style="display:inline;">
+											친구신청 취소
+										</button>
+									</div>
+								</div>
+							</div>
 							
+							<div class="panel panel-default">
+								<div class="row panel-body">
+									<div class="col-sm-2 col-xs-2 member-profile">
+										<div class="row" style="text-align: center;">
+											<img src="<%=cp%>/views/img/UserProfile.jpg" height="50px;"
+												width="50px;" />
+										</div>										
+									</div>
+									<div class="col-sm-3 col-xs-4">
+										<span class="subtitle-text">빵순이</span> <span>(</span> <label
+											class="text-orange">24세</label> <span>)</span>
+									</div>
+									<div class="col-sm-3 col-xs-4 subtitle-text">
+										<span>실력 ｜ </span> <label class="text-orange subtitle-text">LV.1</label>
+									</div>
+									<div class="col-sm-4 col-xs-6 subtitle-text">
+										<span>페어플레이점수 ｜ </span> <label
+											class="text-orange subtitle-text">4.6</label>
+									</div>
+								</div>
+								<hr>
+								<div class="row panel-body">
+									<div class="col-sm-3 col-xs-3">
+										<span>친구신청 발신일 ｜ </span> <span>2020/07/22</span>
+									</div>
+									<div class="col-sm-3 col-xs-3">
+										<span>수신상태 ｜ </span> <span style="color: red;">읽지않음</span>
+									</div>
+									<div class="col-sm-3 col-xs-3">
+									</div>
+									<div class="col-sm-3 col-xs-3">
+										<button type="button" class="btn btn-default btn-submit"
+										style="display:inline;">
+											친구신청 취소
+										</button>
+									</div>
+								</div>
+							</div>
+							
+							<div class="panel panel-default">
+								<div class="row panel-body">
+									<div class="col-sm-2 col-xs-2 member-profile">
+										<div class="row" style="text-align: center;">
+											<img src="<%=cp%>/views/img/UserProfile.jpg" height="50px;"
+												width="50px;" />
+										</div>										
+									</div>
+									<div class="col-sm-3 col-xs-4">
+										<span class="subtitle-text">빵도둑</span> <span>(</span> <label
+											class="text-orange">30세</label> <span>)</span>
+									</div>
+									<div class="col-sm-3 col-xs-4 subtitle-text">
+										<span>실력 ｜ </span> <label class="text-orange subtitle-text">LV.1</label>
+									</div>
+									<div class="col-sm-4 col-xs-6 subtitle-text">
+										<span>페어플레이점수 ｜ </span> <label
+											class="text-orange subtitle-text">2.6</label>
+									</div>
+								</div>
+								<hr>
+								<div class="row panel-body">
+									<div class="col-sm-3 col-xs-3">
+										<span>친구신청 발신일 ｜ </span> <span>2020/07/22</span>
+									</div>
+									<div class="col-sm-3 col-xs-3">
+										<span>수신상태 ｜ </span> <span style="color: blue;">친구수락 완료</span>
+									</div>
+									<div class="col-sm-3 col-xs-3">
+									</div>
+									<div class="col-sm-3 col-xs-3">
+									</div>
+								</div>
+							</div>
+								
 						</div>
 						<div class="row">
 							<div class="col-md-4"></div>

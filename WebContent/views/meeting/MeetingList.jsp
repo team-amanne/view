@@ -83,7 +83,7 @@ String cp = request.getContextPath();
 								<div class="col-md-1">
 									<span class="board-header">번호</span>
 								</div>
-								<div class="col-md-4">
+								<div class="col-md-3">
 									<span class="board-header">제목</span>
 								</div>
 								<div class="col-md-1">
@@ -98,13 +98,131 @@ String cp = request.getContextPath();
 								<div class="col-md-1">
 									<span class="board-header">인원</span>
 								</div>
+								<div class="col-md-1">
+									<span class="board-header">상태</span>
+								</div>
 							</li>
 							<li class="list-group-item list-item">
 								<div class="col-md-1">
 									<span>10</span>
 								</div>
-								<div class="col-md-4">
-									<span>동휘야 그만해 그만</span>
+								<div class="col-md-3">
+									<span><a class="a-link" href="">동휘야 그만해 그만</a></span>
+								</div>
+								<div class="col-md-1">
+									<span>주한별</span>
+								</div>
+								<div class="col-md-3">
+									<span>서울 강남구 수남코트</span>
+								</div>
+								<div class="col-md-2">
+									<span>2020-07-07</span>
+								</div>
+								<div class="col-md-1">
+									<span>3/4</span>
+								</div>
+								<div class="col-md-1">
+									<span style="color: blue;">모집중</span>
+								</div>
+							</li>
+							<li class="list-group-item list-item">
+								<div class="col-md-1">
+									<span>9</span>
+								</div>
+								<div class="col-md-3">
+									<span><a class="a-link" href="">수진아 그만해 그만</a></span>
+								</div>
+								<div class="col-md-1">
+									<span>주한별</span>
+								</div>
+								<div class="col-md-3">
+									<span>서울 왕십리 해남코트</span>
+								</div>
+								<div class="col-md-2">
+									<span>2020-07-07</span>
+								</div>
+								<div class="col-md-1">
+									<span>3/4</span>
+								</div>
+								<div class="col-md-1">
+									<span style="color: blue;">모집중</span>
+								</div>
+							</li>
+							<li class="list-group-item list-item">
+								<div class="col-md-1">
+									<span>8</span>
+								</div>
+								<div class="col-md-3">
+									<span><a class="a-link" href="">진영아 그만해 그만</a></span>
+								</div>
+								<div class="col-md-1">
+									<span>주한별</span>
+								</div>
+								<div class="col-md-3">
+									<span>서울 강북구 한강코트</span>
+								</div>
+								<div class="col-md-2">
+									<span>2020-07-07</span>
+								</div>
+								<div class="col-md-1">
+									<span>1/4</span>
+								</div>
+								<div class="col-md-1">
+									<span style="color: blue;">모집중</span>
+								</div>
+							</li>
+							<li class="list-group-item list-item">
+								<div class="col-md-1">
+									<span>7</span>
+								</div>
+								<div class="col-md-3">
+									<span><a class="a-link" href="">채빈아 그만해 그만</a></span>
+								</div>
+								<div class="col-md-1">
+									<span>주한별</span>
+								</div>
+								<div class="col-md-3">
+									<span>서울 은평구 은평코트</span>
+								</div>
+								<div class="col-md-2">
+									<span>2020-07-07</span>
+								</div>
+								<div class="col-md-1">
+									<span>4/4</span>
+								</div>
+								<div class="col-md-1">
+									<span style="color: red;">마감</span>
+								</div>
+							</li>
+							<li class="list-group-item list-item">
+								<div class="col-md-1">
+									<span>10</span>
+								</div>
+								<div class="col-md-3">
+									<span><a class="a-link" href="">효림아 그만해 그만</a></span>
+								</div>
+								<div class="col-md-1">
+									<span>주한별</span>
+								</div>
+								<div class="col-md-3">
+									<span>서울 영등포구 영등코트</span>
+								</div>
+								<div class="col-md-2">
+									<span>2020-07-07</span>
+								</div>
+								<div class="col-md-1">
+									<span>4/4</span>
+								</div>
+								<div class="col-md-1">
+									<span style="color: red;">마감</span>
+								</div>
+							</li>
+							<li class="list-group-item list-item">
+								<div class="col-md-1">
+									<span>10</span>
+								</div>
+								<div class="col-md-3">
+									<span><a class="a-link" href="">기혜야 그만해 그만</a></span>
 								</div>
 								<div class="col-md-1">
 									<span>주한별</span>
@@ -116,107 +234,10 @@ String cp = request.getContextPath();
 									<span>2020-07-07</span>
 								</div>
 								<div class="col-md-1">
-									<span>3/4</span>
-								</div>
-							</li>
-							<li class="list-group-item list-item">
-								<div class="col-md-1">
-									<span>10</span>
-								</div>
-								<div class="col-md-4">
-									<span>동휘야 그만해 그만</span>
+									<span>4/4</span>
 								</div>
 								<div class="col-md-1">
-									<span>주한별</span>
-								</div>
-								<div class="col-md-3">
-									<span>서울 마포구 연남코트</span>
-								</div>
-								<div class="col-md-2">
-									<span>2020-07-07</span>
-								</div>
-								<div class="col-md-1">
-									<span>3/4</span>
-								</div>
-							</li>
-							<li class="list-group-item list-item">
-								<div class="col-md-1">
-									<span>10</span>
-								</div>
-								<div class="col-md-4">
-									<span>동휘야 그만해 그만</span>
-								</div>
-								<div class="col-md-1">
-									<span>주한별</span>
-								</div>
-								<div class="col-md-3">
-									<span>서울 마포구 연남코트</span>
-								</div>
-								<div class="col-md-2">
-									<span>2020-07-07</span>
-								</div>
-								<div class="col-md-1">
-									<span>3/4</span>
-								</div>
-							</li>
-							<li class="list-group-item list-item">
-								<div class="col-md-1">
-									<span>10</span>
-								</div>
-								<div class="col-md-4">
-									<span>동휘야 그만해 그만</span>
-								</div>
-								<div class="col-md-1">
-									<span>주한별</span>
-								</div>
-								<div class="col-md-3">
-									<span>서울 마포구 연남코트</span>
-								</div>
-								<div class="col-md-2">
-									<span>2020-07-07</span>
-								</div>
-								<div class="col-md-1">
-									<span>3/4</span>
-								</div>
-							</li>
-							<li class="list-group-item list-item">
-								<div class="col-md-1">
-									<span>10</span>
-								</div>
-								<div class="col-md-4">
-									<span>동휘야 그만해 그만</span>
-								</div>
-								<div class="col-md-1">
-									<span>주한별</span>
-								</div>
-								<div class="col-md-3">
-									<span>서울 마포구 연남코트</span>
-								</div>
-								<div class="col-md-2">
-									<span>2020-07-07</span>
-								</div>
-								<div class="col-md-1">
-									<span>3/4</span>
-								</div>
-							</li>
-							<li class="list-group-item list-item">
-								<div class="col-md-1">
-									<span>10</span>
-								</div>
-								<div class="col-md-4">
-									<span>동휘야 그만해 그만</span>
-								</div>
-								<div class="col-md-1">
-									<span>주한별</span>
-								</div>
-								<div class="col-md-3">
-									<span>서울 마포구 연남코트</span>
-								</div>
-								<div class="col-md-2">
-									<span>2020-07-07</span>
-								</div>
-								<div class="col-md-1">
-									<span>3/4</span>
+									<span style="color: red;">마감</span>
 								</div>
 							</li>
 
