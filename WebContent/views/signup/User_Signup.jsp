@@ -176,11 +176,26 @@
 	margin-bottom: 10px;
 }
 
+/* 전화번호 인증번호 입력칸 */
+#tel4
+{
+	margin-left: 66px;
+	margin-bottom: 10px;
+	width: 279px;
+}
+
 /* 전화번호 인증 */
 #tel_certify
 {
 	margin-left: 10px;
 	width: 98px;
+	height: 34px;
+}
+
+#tel_certify_send
+{
+	margin-left: 10px;
+	width: 110px;
 	height: 34px;
 }
 
@@ -266,7 +281,7 @@
 				<label class="f_size">이메일*</label>
 				<span><input type="email" class="form-control" id="email" placeholder="email"></span>
 				
-				<button class="btn btn-warning" id="email_certify">인증</button>
+				<button class="btn btn-warning" id="email_certify">중복확인</button>
 			</div>
 			<div class="flex">
 				<label class="f_size">비밀번호*</label>
@@ -353,6 +368,15 @@
 				
 				<button class="btn btn-warning" id="tel_certify">인증</button>
 			</div>
+			
+			<div class="flex">
+				<label class="f_size">인증번호*</label>
+				<input type="tel" class="form-control" id="tel4" placeholder="인증번호를 입력해주세요">
+				
+				<button class="btn btn-warning" id="tel_certify_send">인증번호 발송</button>
+				
+			</div>
+			
 			<div class="flex">
 				<label class="f_size">선호포지션*</label>
 				<select class="form-control" id="position">

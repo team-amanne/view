@@ -22,6 +22,11 @@
 	font-weight: bold;
 }
 
+.friend
+{
+	margin-bottom: 6px;
+}
+
 </style>
 </head>
 
@@ -170,9 +175,14 @@
 								</div>
 							</li>
 						</ul>	
-						<br>
-						<br>
-						<p class="subtitle-text">친구신청 발신함</p>		
+						<ul class="nav nav-tabs friend" role="tablist">
+							<li role="presentation" class="active"><a href="#home"
+								aria-controls="home" role="tab" data-toggle="tab">친구신청 발신함</a></li>
+							<li role="presentation"><a href="#profile"
+								aria-controls="profile" role="tab" data-toggle="tab">친구신청 수신함</a></li>
+						</ul>
+								
+						<p class="subtitle-text">친구신청 발신함(3건)</p>		
 							<div class="panel panel-default">
 								<div class="row panel-body">
 									<div class="col-sm-2 col-xs-2 member-profile">
@@ -283,7 +293,7 @@
 							<br>
 							<br>
 							
-							<p class="subtitle-text">친구신청 수신함</p>		
+							<p class="subtitle-text">친구신청 수신함(2건)</p>		
 							<div class="panel panel-default">
 								<div class="row panel-body">
 									<div class="col-sm-2 col-xs-2 member-profile">
